@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 3 (Multiplicación mediante sumas).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de multiplicación(4, 3).
+- Cuál es el caso base implementado cuando el factor vale 0 y por qué detiene la recursión devolviendo 0.
+- Cuál es el caso recursivo y cómo explica que la multiplicación se transforme en sumas sucesivas reduciendo uno de los parámetros.
+- Errores comunes al implementar este tipo de recursión con dos parámetros (por ejemplo, reducir el parámetro equivocado o no contemplar números negativos).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/03_explicacion.md.
