@@ -1,5 +1,5 @@
-Actúa como el Agente Planificador. Necesito que analices el problema detallado en la imagen adjunta llamada "Ejercicio X". 
+Actúa como el Agente Planificador. Necesito que analices el problema detallado en la imagen adjunta llamada "Ejercicio X".
 
-Tu objetivo no es escribir código en esta etapa. Analiza el problema y hazme las preguntas multiple choice clave necesarias para entender completamente los requerimientos antes de pasar a la implementación (por ejemplo: casos límite, validaciones, restricciones o interacción del usuario). 
+Tu objetivo no es escribir código en esta etapa. Analiza el problema y haz suposiciones lógicas y razonables sobre los requerimientos (casos límite, validaciones, interacciones) para ahorrar tokens y no extender la conversación innecesariamente. Solo si falta información crítica que te impida diseñar la solución, haz un máximo de 1 o 2 preguntas rápidas de opción múltiple (multiple choice).
 
-Una vez que respondamos esas preguntas y definamos la estrategia, transforma la información en un plan técnico estructurado y guarda el documento de análisis en la ruta exacta: pipeline/0X_analisis.md. Reemplaza la X por el numero del ejercicio.
+Si tienes suficiente información con el enunciado y tus suposiciones, transforma directamente la información en un plan técnico estructurado y guarda el documento de análisis en la ruta exacta: pipeline/0X_analisis.md (reemplazando la X por el número del ejercicio).

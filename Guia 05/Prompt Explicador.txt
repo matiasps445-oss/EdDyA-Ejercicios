@@ -9,4 +9,4 @@ Por favor, desglosa la explicación de forma clara y didáctica detallando:
 - Posibles mejoras o alternativas de diseño que podríamos considerar.
 - Errores comunes que suelen cometerse con este tipo de implementación.
 
-Finalmente, guarda todo este documento de explicación en la ruta exacta: pipeline/01_explicacion.md
+Finalmente, guarda todo este documento de explicación en la ruta exacta: pipeline/0X_explicacion.md. Reemplaza el X por el numero del ejercicio.
