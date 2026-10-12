@@ -1,8 +1,14 @@
-Actúa como el Agente Planificador. Necesito que analices el problema de recursividad detallado en la imagen adjunta llamada "Ejercicio X".
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 1 (Factorial) sobre recursividad:
 
-Tu objetivo no es escribir código en esta etapa. Analiza el problema y define claramente: por qué el problema puede resolverse recursivamente, cuál es el caso base y su motivo, cuál es el caso recursivo (cómo se reduce el problema) y qué valores de prueba usar. Solo si falta información crítica, haz un máximo de 1 o 2 preguntas rápidas de opción múltiple.
+"Quiero implementar en Java una función recursiva que calcule el factorial de un número.
+Este problema puede resolverse recursivamente porque el factorial de un número n es n multiplicado por el factorial de n-1.
+El caso base es cuando n vale 0 o 1, porque por definición matemática, el factorial de 0 y 1 es 1.
+El caso recursivo es n * factorial(n-1), porque en cada llamada el problema se reduce restando 1 a n, acercándose al caso base.
+La función debe devolver un número entero con el resultado.
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probarlo con estos casos:
+- caso 1: n = 0
+- caso 2: n = 1
+- caso 3: n = 5"
 
-Si tienes suficiente información, transforma directamente la información en un plan técnico estructurado y redacta el análisis en el documento siguiendo exactamente este formato:
-"Quiero implementar en Java una función recursiva que resuelva [problema]. Este problema puede resolverse recursivamente porque [explicación]. El caso base es [condición], porque [motivo]. El caso recursivo es [llamada recursiva], porque en cada llamada [explicación de cómo se reduce]. La función debe devolver [resultado]. Casos de prueba: [casos]".
-
-Guarda este documento de análisis en la ruta exacta: pipeline/0X_analisis.md (reemplazando la X por el número del ejercicio).
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/01_analisis.md.
