@@ -1,0 +1,8 @@
+Actúa como el Agente Planificador. Necesito que analices el problema de recursividad detallado en la imagen adjunta llamada "Ejercicio X".
+
+Tu objetivo no es escribir código en esta etapa. Analiza el problema y define claramente: por qué el problema puede resolverse recursivamente, cuál es el caso base y su motivo, cuál es el caso recursivo (cómo se reduce el problema) y qué valores de prueba usar. Solo si falta información crítica, haz un máximo de 1 o 2 preguntas rápidas de opción múltiple.
+
+Si tienes suficiente información, transforma directamente la información en un plan técnico estructurado y redacta el análisis en el documento siguiendo exactamente este formato:
+"Quiero implementar en Java una función recursiva que resuelva [problema]. Este problema puede resolverse recursivamente porque [explicación]. El caso base es [condición], porque [motivo]. El caso recursivo es [llamada recursiva], porque en cada llamada [explicación de cómo se reduce]. La función debe devolver [resultado]. Casos de prueba: [casos]".
+
+Guarda este documento de análisis en la ruta exacta: pipeline/0X_analisis.md (reemplazando la X por el número del ejercicio).
