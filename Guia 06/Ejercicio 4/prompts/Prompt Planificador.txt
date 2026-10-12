@@ -1,0 +1,14 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 4 (Potencia) sobre recursividad:
+
+"Quiero implementar en Java una función recursiva que calcule una potencia sin usar la función Math.pow.
+Este problema puede resolverse recursivamente porque una potencia (una base elevada a un exponente) puede verse como multiplicaciones sucesivas de la base por sí misma.
+El caso base es cuando el exponente es 0, porque matemáticamente cualquier número elevado a la 0 es 1, lo que detiene la recursión y debe devolver 1.
+El caso recursivo es base * potencia(base, exponente - 1), porque en cada llamada el problema se reduce restándole 1 al exponente, acercándose al caso base.
+La función debe devolver un número entero con el resultado del cálculo en cada caso.
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probarlo con estos casos:
+- caso 1: base = 2, exponente = 0
+- caso 2: base = 2, exponente = 1
+- caso 3: base = 2, exponente = 3"
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/04_analisis.md.

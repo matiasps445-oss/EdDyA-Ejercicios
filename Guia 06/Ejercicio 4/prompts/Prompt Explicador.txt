@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 4 (Potencia).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de potencia(2, 3).
+- Cuál es el caso base implementado con el exponente 0 y por qué detiene la recursión devolviendo 1.
+- Cuál es el caso recursivo y cómo explica que la potencia se transforme en multiplicaciones sucesivas reduciendo el exponente.
+- Errores comunes al implementar este tipo de recursión (por ejemplo, qué pasaría si se ingresa un exponente negativo sin validarlo previamente).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/04_explicacion.md.
