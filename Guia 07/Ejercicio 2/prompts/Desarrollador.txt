@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/02_analisis.md" para resolver el Ejercicio 2 (Comparación entre Burbuja y Selección).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa los métodos bubbleSort(int[] array) y selectionSort(int[] array) asegurándote de que ambos reciban una copia independiente del mismo arreglo original para que la comparación sea justa.
+3. Lleva un registro de contadores para "comparaciones" e "intercambios" en cada método e imprímelos al final junto con el arreglo ordenado.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

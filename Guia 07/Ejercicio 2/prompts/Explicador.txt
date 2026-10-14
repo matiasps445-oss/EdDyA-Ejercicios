@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 2 (Comparación entre Burbuja y Selección).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de estos algoritmos a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona internamente cada algoritmo paso a paso.
+- Cuál es la diferencia fundamental entre la estrategia de "comparar vecinos" (Burbuja) y la estrategia de "buscar directamente el menor" (Selección).
+- Analiza los resultados de los contadores impresos: ¿Por qué un algoritmo realiza más comparaciones o intercambios que el otro? ¿Qué nos dice esto sobre su eficiencia?
+- Errores comunes al implementar estos contadores (por ejemplo, contar comparaciones del ciclo for en lugar de las comparaciones entre los elementos del arreglo).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/02_explicacion.md.

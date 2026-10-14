@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 2 (Comparación entre Burbuja y Selección) basado en la imagen adjunta "Ejercicio 2.png":
+
+"Quiero implementar en Java un programa que incluya dos métodos: bubbleSort(int[] array) y selectionSort(int[] array), y que cuente las operaciones de cada uno.
+El algoritmo Bubble Sort razona comparando elementos vecinos e intercambiándolos si están en el orden incorrecto. En cambio, Selection Sort razona buscando directamente el elemento menor en la parte no ordenada para colocarlo en su posición final. La principal diferencia radica en hacer múltiples intercambios locales (vecinos) versus hacer una búsqueda global del menor para un solo intercambio por pasada.
+El programa recibe un arreglo de números enteros desordenados (por ejemplo: {64, 34, 25, 12, 22, 11, 90}).
+El programa debe ordenar copias exactas del mismo arreglo original y mostrar por pantalla: el arreglo ordenado, la cantidad de comparaciones realizadas y la cantidad de intercambios realizados por cada algoritmo.
+El código debe incluir comentarios indicando exactamente dónde ocurren las comparaciones, dónde los intercambios y dónde se incrementan los contadores.
+Para verificar que el resultado sea correcto, se debe comprobar en la consola que ambos métodos logran el mismo arreglo ordenado final, pero reportan cantidades diferentes en sus contadores de operaciones."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/02_analisis.md.
