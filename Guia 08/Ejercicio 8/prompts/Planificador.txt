@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 8 (Cola de impresión) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 8.png":
+
+"Quiero implementar en Java un sistema de cola de impresión utilizando una estructura de Cola (Queue) basada en arreglos. Cada documento a imprimir será un objeto que tiene un nombre (String) y una cantidad de páginas (int).
+Una cola representa correctamente el orden de impresión porque utiliza el principio FIFO (First In, First Out). En el mundo real, cuando varios usuarios envían documentos a una impresora, el primer documento que llega al sistema (spooler) debe ser el primero en imprimirse físicamente para mantener un orden justo y cronológico.
+El sistema debe permitir: agregar un documento a la cola (enqueue) avanzando el índice 'rear', e imprimir el documento (dequeue) retirándolo del índice 'front' y devolviéndolo.
+Se deben contemplar los casos límite: si la cola está llena, el sistema debe rechazar nuevos trabajos de impresión; si la cola está vacía, el intento de imprimir debe indicar que no hay documentos pendientes.
+Para verificar el comportamiento, quiero agregar a la cola el 'Documento A' (10 páginas) y luego el 'Documento B' (5 páginas). Al ejecutar la operación de imprimir una vez, el sistema debe mostrar que se imprimió el 'Documento A', respetando el orden de llegada."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/08_analisis.md.

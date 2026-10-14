@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 8 (Cola de impresión).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué la Cola (FIFO) simula a la perfección el comportamiento del "spooler" de una impresora real.
+- Cómo el algoritmo gestiona los objetos de la clase Documento internamente dentro del arreglo al hacer enqueue y dequeue.
+- Qué precauciones tomó el código para evitar errores si alguien intenta imprimir cuando no hay papel/trabajos pendientes (cola vacía).
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial relacionó claramente el funcionamiento de una impresora con el principio FIFO, por lo que no fue necesario realizar ajustes al prompt para que OpenCode generara la lógica adecuada.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/08_explicacion.md.
