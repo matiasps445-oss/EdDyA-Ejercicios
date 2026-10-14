@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/08_analisis.md" para resolver el Ejercicio 8 de la Guía 9 (Contar ocurrencias de un valor).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un método 'int contarOcurrencias..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt explicó de manera perfecta por qué no se debe cortar el ciclo while al encontrar la primera coincidencia, lo que permitió que la lógica de conteo abarcara toda la lista de forma exitosa.
+*/
+2. Implementa el método 'contarOcurrencias' utilizando un ciclo para recorrer la lista hasta el final y una variable local para acumular las coincidencias.
+3. En el método main, incluye la prueba de ejecución armando la lista con los valores (10, 20, 10, 30, 10), ejecuta el conteo del valor 10 e imprime el resultado (3) por consola.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

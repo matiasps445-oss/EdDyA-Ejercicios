@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 8 de la Guía 9 (Contar ocurrencias de un valor).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La diferencia fundamental en las condiciones de salida de los bucles entre este método (`contarOcurrencias`) y el método del Ejercicio 2 (`buscar`).
+- Por qué el costo temporal de este algoritmo siempre será el "peor caso" (O(n)), independientemente de si el valor buscado está al principio, al final, o no existe en la lista.
+- Cómo el algoritmo se protege automáticamente de listas vacías (si `head` es null) devolviendo 0 sin lanzar errores.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/08_explicacion.md.

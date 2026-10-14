@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 8 de la Guía 9 (Contar ocurrencias de un valor):
+
+"Quiero implementar en Java un método 'int contarOcurrencias(int dato)' para nuestra lista enlazada simple.
+El objetivo de este método es recorrer la lista completa y contar cuántas veces aparece un valor específico.
+A diferencia del método de búsqueda tradicional (que puede usar un 'return' o 'break' para cortar el recorrido apenas encuentra la primera coincidencia), en este caso NO se debe interrumpir el ciclo. El algoritmo debe iterar obligatoriamente hasta el final de la estructura (es decir, hasta que el puntero 'actual' sea null). Si cortáramos el recorrido en la primera coincidencia, ignoraríamos los nodos posteriores que también podrían contener el mismo valor.
+Durante el recorrido secuencial, se debe utilizar una variable contadora iniciada en 0, que se incrementará en 1 cada vez que 'actual.getDato() == dato'.
+Para la prueba de ejecución, quiero construir una lista exactamente con estos valores: 10 -> 20 -> 10 -> 30 -> 10. Luego, llamar al método para contar las ocurrencias del valor 10, y el programa debe imprimir en consola que el resultado es 3."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/08_analisis.md.
