@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 6 (Quicksort con primer elemento como pivote).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona internamente el algoritmo Quicksort paso a paso y por qué es un excelente ejemplo del paradigma de diseño "divide y vencerás".
+- Cómo se apoya el algoritmo en la recursividad para resolver el problema general ordenando problemas más pequeños (simula brevemente la pila de llamadas).
+- Cómo funciona exactamente el proceso de partición utilizando el primer elemento como pivote.
+- Errores comunes al implementar Quicksort (por ejemplo, casos base mal definidos que llevan a bucles infinitos o StackOverflowError).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/06_explicacion.md.

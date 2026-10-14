@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/06_analisis.md" para resolver el Ejercicio 6 (Quicksort con primer elemento como pivote).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. El programa DEBE imprimir explícitamente en consola cada vez que particiona: el pivote elegido, el subarreglo izquierdo y el subarreglo derecho. Al finalizar, debe imprimir el arreglo completo ordenado.
+3. Asegúrate de que el algoritmo utilice siempre el primer elemento de la porción actual del arreglo como pivote.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

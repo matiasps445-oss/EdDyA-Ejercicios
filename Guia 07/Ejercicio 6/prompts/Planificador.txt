@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 6 (Quicksort con primer elemento como pivote) basado en la imagen adjunta "Ejercicio 6.png":
+
+"Quiero implementar en Java un programa que ordene un arreglo utilizando el algoritmo Quicksort, eligiendo siempre el primer elemento de la partición como pivote.
+El razonamiento de este algoritmo se basa profundamente en la estrategia de 'divide y vencerás' y en la recursividad. Se elige un pivote (en este caso, el primer elemento) y se recorre el resto del arreglo para dividirlo en dos subarreglos: uno con los elementos menores al pivote y otro con los elementos mayores. Luego, la función se llama a sí misma recursivamente para ordenar cada subarreglo de forma independiente.
+El programa recibe un arreglo de números enteros.
+El programa debe mostrar por pantalla en cada paso recursivo: cuál fue el pivote elegido, cómo quedó conformado el subarreglo izquierdo (menores), cómo quedó el subarreglo derecho (mayores) y, al finalizar toda la ejecución, el arreglo final ordenado.
+El código debe incluir comentarios que expliquen la división del arreglo y las llamadas recursivas.
+Para verificar que el resultado sea correcto, se debe comprobar en consola que el arreglo final quede ordenado y que los subarreglos impresos correspondan lógicamente al pivote de ese momento."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/06_analisis.md.
