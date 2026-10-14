@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 5 (Historial de navegación con pila) de la Guía 10:
+
+"Quiero implementar en Java un sistema simple de historial de navegación web utilizando una pila enlazada.
+El programa debe permitir las siguientes operaciones: visitar una página (apilar/push), volver a la página anterior (desapilar/pop), consultar la página actual (tope/top) e imprimir el historial completo.
+Es fundamental utilizar una estructura de Pila para este problema porque representa a la perfección el comportamiento del botón 'Atrás' de cualquier navegador mediante la política LIFO (Last In, First Out). En la navegación web, la última página a la que ingresaste es obligatoriamente la primera página a la que vas a regresar si decides retroceder. Cada nueva página visitada se coloca en el tope de la pila, ocultando a las anteriores, y al retroceder, se retira ese tope para revelar la página inmediatamente anterior.
+Como casos especiales, el sistema debe protegerse si el usuario intenta 'volver atrás' o 'consultar la página actual' cuando el historial está vacío (pila vacía).
+Para la prueba, quiero visitar 'google.com', luego 'github.com' y finalmente 'stackoverflow.com'. Consultar la página actual, volver a la página anterior y volver a consultar la página actual (debería ser github.com)."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/05_analisis.md.

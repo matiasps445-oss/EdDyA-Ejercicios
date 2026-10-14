@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/05_analisis.md" para resolver el Ejercicio 5 (Historial de navegación con pila).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un sistema simple..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt justificó con absoluta claridad por qué la política LIFO de la pila representa matemáticamente el comportamiento de volver a la página anterior, lo que derivó en un código exacto y funcional al primer intento.
+*/
+2. Implementa las clases necesarias (Nodo y la Pila del historial) asegurándote de manejar el caso especial de intentar retroceder cuando el historial está vacío.
+3. En el método main, incluye las pruebas de ejecución exactas solicitadas (visitando los tres sitios web y retrocediendo un paso), imprimiendo los resultados por consola.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.
