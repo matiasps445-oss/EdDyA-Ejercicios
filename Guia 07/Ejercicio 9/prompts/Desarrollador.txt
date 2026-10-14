@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/09_analisis.md" para resolver el Ejercicio 9 (Comparación de algoritmos simples).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa los tres métodos de ordenamiento (Bubble Sort, Selection Sort e Insertion Sort) garantizando que reciban copias independientes del arreglo original (por ejemplo, usando Arrays.copyOf) para que la evaluación sea justa.
+3. El programa debe imprimir para CADA algoritmo: el nombre del algoritmo, el arreglo ya ordenado, y sus respectivos contadores de comparaciones e intercambios/desplazamientos.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

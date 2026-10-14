@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 9 (Comparación de algoritmos simples).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de estos algoritmos a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo se estructuró el código para garantizar una prueba justa entre los tres algoritmos (el uso de copias del arreglo original).
+- Una comparación técnica de las estrategias en base a los resultados obtenidos en los contadores: ¿Cuál algoritmo realizó más comparaciones? ¿Cuál realizó más intercambios o desplazamientos? ¿Por qué se dan estas diferencias lógicas?
+- Cuál es la diferencia fundamental entre un "intercambio" (usado en Burbuja y Selección) y un "desplazamiento" (usado en Inserción).
+- Conclusión general sobre en qué escenario de la vida real convendría utilizar cada uno de estos tres algoritmos simples.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/09_explicacion.md.

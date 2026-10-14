@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 9 (Comparación de algoritmos simples) basado en la imagen adjunta "Ejercicio 9.png":
+
+"Quiero implementar en Java un programa que compare el rendimiento de tres algoritmos de ordenamiento simples: Bubble Sort, Selection Sort e Insertion Sort.
+El razonamiento de este problema es aplicar las tres estrategias sobre copias exactas del mismo arreglo inicial para poder evaluar objetivamente su eficiencia. Sabemos que Bubble Sort compara e intercambia vecinos constantemente, Selection Sort busca el menor y realiza un solo intercambio por pasada, e Insertion Sort toma un elemento y desplaza los mayores para insertarlo en su lugar.
+El programa recibe un arreglo de números enteros desordenados.
+El programa debe procesar el arreglo con los tres métodos y mostrar por pantalla para cada algoritmo: el arreglo final ordenado, la cantidad total de comparaciones y la cantidad total de intercambios o desplazamientos realizados.
+El código debe incluir comentarios que identifiquen dónde se inicializan las copias del arreglo y dónde se incrementan los contadores en cada método.
+Para verificar que el resultado sea correcto, se debe observar en la consola que los tres algoritmos devuelvan exactamente el mismo arreglo ordenado, pero reporten distintas cantidades de operaciones, permitiendo al alumno comparar las estrategias y no solo el resultado final."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/09_analisis.md.
