@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 3 (Pila genérica).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La ventaja crítica de usar `<T>` en compilación: Cómo Java nos protege de errores catastróficos (como un `ClassCastException`) al impedir que ingresemos accidentalmente un objeto `Torneo` dentro de la pila instanciada para `Integer`.
+- Por qué transformar la clase a genérica afectó únicamente a las firmas de los métodos y a la variable de almacenamiento de la clase Nodo, pero dejó intacta la lógica matemática de los punteros (`head`, `setSiguiente`, etc.).
+- La diferencia entre almacenar tipos primitivos (como `int`) que no están permitidos en genéricos, y la obligación de usar sus Clases Envoltorio (Wrapper classes como `Integer`).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/03_explicacion.md.

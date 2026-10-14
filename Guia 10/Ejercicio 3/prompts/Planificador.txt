@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 3 (Pila genérica) de la Guía 10:
+
+"Quiero modificar nuestra implementación anterior de Pila enlazada de enteros para que sea una Pila Genérica utilizando la sintaxis <T> de Java.
+Usar genéricos en Java significa que podemos diseñar la estructura de datos una sola vez y permitir que el compilador garantice la seguridad de tipos (Type Safety) dinámicamente. Esto nos evita tener que programar una 'PilaString', 'PilaInteger' o 'PilaTorneo' por separado.
+La lógica fundamental de la pila (el comportamiento LIFO, el manejo del puntero 'head' y la complejidad O(1) en push/pop) no depende en absoluto del tipo de dato almacenado. A la estructura solo le interesa cómo enlazar los nodos (las 'cajas'); el contenido de la caja (la carga útil) es irrelevante para los algoritmos de apilar o desapilar, por lo que la separación de responsabilidades es perfecta.
+Para la estructura, tanto Nodo como PilaEnlazada deben recibir el parámetro <T>.
+Para comprobar que la implementación funciona con cualquier tipo de dato, el método main debe instanciar y probar tres pilas distintas: una PilaEnlazada<Integer> para números, una PilaEnlazada<String> para textos, y una PilaEnlazada<Torneo> para probar con objetos propios (simulando un sistema de gestión de torneos con atributos básicos como nombre y cantidad de participantes)."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/03_analisis.md.
