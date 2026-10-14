@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 1 (Ordenamiento Burbuja paso a paso).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona el doble ciclo (for anidado) paso a paso.
+- Por qué el elemento mayor se va desplazando hacia el final del arreglo en cada iteración y cómo impacta esto en la condición de corte del ciclo interno.
+- Por qué es útil imprimir el estado del arreglo después de cada pasada para entender el comportamiento de Bubble Sort.
+- Posibles ineficiencias de este algoritmo frente a conjuntos de datos grandes o si el arreglo ya estuviera ordenado.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/01_explicacion.md.

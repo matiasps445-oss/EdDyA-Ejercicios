@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/01_analisis.md" para resolver el Ejercicio 1 (Ordenamiento Burbuja paso a paso).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. El programa DEBE imprimir el arreglo original y luego imprimir el arreglo completo después de cada pasada del bucle externo para poder ver el proceso paso a paso.
+3. Incluye comentarios explicando las zonas clave del algoritmo Bubble Sort (comparación, intercambio y reducción de la zona de búsqueda).
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

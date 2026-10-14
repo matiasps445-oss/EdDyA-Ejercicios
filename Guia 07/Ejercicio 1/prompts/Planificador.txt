@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 1 (Ordenamiento Burbuja paso a paso) basado en la imagen adjunta "Ejercicio 1.png":
+
+"Quiero implementar en Java un programa que ordene un arreglo de números enteros utilizando el algoritmo Bubble Sort (Ordenamiento Burbuja).
+El razonamiento de este algoritmo se basa en comparar elementos adyacentes y cambiarlos de posición si están en el orden equivocado. Esto genera que, en cada iteración completa, el elemento de mayor valor se vaya desplazando hacia el final del arreglo, ocupando su posición definitiva.
+El programa recibirá un arreglo de números enteros desordenados, por ejemplo: {64, 34, 25, 12, 22, 11, 90}.
+El programa debe mostrar por pantalla el arreglo original y, como requisito fundamental, el estado del arreglo después de cada pasada (iteración externa).
+El código debe incluir comentarios que indiquen dónde se realiza la comparación, dónde ocurre el intercambio y por qué el límite del bucle interno se va reduciendo.
+Para verificar que el resultado sea correcto, se debe comprobar visualmente en la consola que, iteración tras iteración, los números más grandes quedan acomodados al final hasta que todo el arreglo esté ordenado de menor a mayor."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/01_analisis.md.
