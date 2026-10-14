@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 2 (Cola enlazada de enteros).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La arquitectura de doble puntero: Explica paso a paso cómo interactúan `head` y `tail` en la memoria cuando se inserta el *primer* elemento en una cola vacía versus cuando se inserta un elemento en una cola que ya tiene datos.
+- El caso crítico del último elemento: Por qué al hacer el último `dequeue` (cuando la cola se vacía por completo) no basta con que `head` avance a null, sino que también es obligatorio forzar que `tail` sea null.
+- Cómo esta implementación supera las limitaciones de las colas basadas en arreglos estáticos (donde sufríamos el desperdicio de espacio y necesitábamos recurrir a colas circulares con la fórmula del módulo `%`).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/02_explicacion.md.

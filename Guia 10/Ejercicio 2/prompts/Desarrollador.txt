@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/02_analisis.md" para resolver el Ejercicio 2 (Cola enlazada de enteros).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java una estructura de Cola..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt identificó correctamente la necesidad imperativa de utilizar los punteros 'head' y 'tail' para mantener la complejidad O(1) en las operaciones FIFO, por lo que el algoritmo resultó eficiente y exacto al primer intento.
+*/
+2. Implementa las clases necesarias (Nodo y ColaEnlazada) con todos los métodos solicitados, asegurando que 'tail' se maneje correctamente, especialmente cuando la cola queda vacía.
+3. En el método main, incluye las pruebas de ejecución descritas, imprimiendo el estado de la cola por consola tras cada operación.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 2 (Cola enlazada de enteros) de la Guía 10:
+
+"Quiero implementar en Java una estructura de Cola (Queue) de números enteros utilizando internamente una lista enlazada simple.
+Corresponde usar una cola porque necesito un comportamiento estricto FIFO (First In, First Out). Para el funcionamiento interno, es absolutamente necesario utilizar dos referencias: 'head' (frente) y 'tail' (final). 
+El problema crítico que aparecería si solamente usáramos 'head' es la pérdida de eficiencia: cada vez que quisiéramos encolar un elemento nuevo al final, tendríamos que recorrer toda la lista desde el principio, lo que resultaría en una complejidad de tiempo O(n). Al mantener un puntero 'tail' apuntando siempre al último nodo, podemos encolar directamente en un tiempo constante O(1). Desencolar también será O(1) porque siempre se retira desde el 'head'.
+Las operaciones que debe implementar son: encolar, desencolar, consultar el frente, verificar si está vacía, buscar si contiene un valor (lo cual será O(n) mediante recorrido) e imprimir su contenido.
+Como casos especiales, si se intenta desencolar o consultar el frente en una cola vacía, debe arrojar una excepción. Además, al desencolar el último elemento, 'tail' también debe actualizarse a null.
+Para la prueba, quiero encolar 3 números, consultar el frente, desencolar un elemento y buscar un valor específico."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/02_analisis.md.
