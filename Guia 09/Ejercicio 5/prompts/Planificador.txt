@@ -1,0 +1,12 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 5 de la Guía 9 (Eliminar un nodo por valor):
+
+"Quiero implementar en Java un método 'boolean eliminar(int dato)' para nuestra lista enlazada simple. Este método debe buscar y eliminar la primera aparición del dato especificado, devolviendo true si lo logró o false si no lo encontró.
+Es fundamental entender que en Java no se borra ni se destruye manualmente el nodo de la memoria (como se haría en C o C++ con 'free'). En su lugar, simplemente 'desconectamos' el nodo actualizando las referencias para dejarlo inaccesible; luego, el recolector de basura de Java (Garbage Collector) se encargará automáticamente de liberar esa memoria.
+El algoritmo debe contemplar obligatoriamente 5 casos:
+1. Lista vacía: Si head es null, devolver false inmediatamente.
+2. Eliminar el primer nodo: Si el dato está en el head, simplemente actualizamos head para que apunte a head.getSiguiente() y reducimos el size.
+3 y 4. Eliminar un nodo del medio o el último: Requiere recorrer la lista llevando dos punteros ('actual' y 'anterior'). Cuando 'actual' tiene el dato, hacemos que 'anterior' apunte al 'siguiente' de 'actual', puenteando así al nodo a eliminar. Reducimos el size.
+5. Dato inexistente: Si el recorrido termina y no se encontró el dato, devolver false.
+Para verificar, quiero crear una lista con los valores 10, 20, 30 y 40, y probar eliminar el 10 (head), el 30 (medio), el 40 (último) y un 99 (inexistente), imprimiendo la lista tras cada paso."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/05_analisis.md.

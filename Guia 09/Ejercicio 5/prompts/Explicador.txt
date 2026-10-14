@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 5 de la Guía 9 (Eliminar un nodo por valor).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- El rol del "Garbage Collector" en Java: cómo funciona este mecanismo automático y por qué "puentear" un nodo (dejando de apuntar hacia él) es suficiente para eliminarlo de forma segura.
+- La técnica de los dos punteros (`anterior` y `actual`): por qué en una lista enlazada *simple* es absolutamente necesario llevar un rastro del nodo anterior para poder eliminar el actual (a diferencia de una lista doblemente enlazada).
+- Por qué la eliminación del primer nodo (`head`) se considera un caso especial que requiere un bloque `if` separado del ciclo `while` principal.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/05_explicacion.md.

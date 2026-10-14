@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/05_analisis.md" para resolver el Ejercicio 5 de la Guía 9 (Eliminar un nodo por valor).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un método 'boolean eliminar..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt fue excelente al detallar explícitamente que en Java los nodos no se borran manualmente sino que se dejan inaccesibles para el Garbage Collector, y al listar los 5 casos de prueba necesarios, logrando un código robusto a la primera.
+*/
+2. Implementa el método 'eliminar' contemplando el uso de dos punteros (anterior y actual) para poder "puentear" el nodo eliminado y conectarlo con el resto de la lista.
+3. En el método main, incluye las pruebas de ejecución exactas solicitadas (eliminar head, medio, último y dato inexistente), mostrando la lista por consola en cada paso.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.
