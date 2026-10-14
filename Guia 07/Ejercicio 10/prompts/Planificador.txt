@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 10 (Sistema de ranking de puntajes) basado en la imagen adjunta "Ejercicio 10.png":
+
+"Quiero implementar en Java un programa que reciba un arreglo de objetos Jugador (con nombre y puntaje) y los ordene para formar un ranking de mayor a menor puntaje.
+Para resolver este problema, elijo utilizar el algoritmo MergeSort. La justificación de esta elección es que, al ordenar objetos complejos (como un ranking de jugadores), MergeSort garantiza un rendimiento sumamente rápido, estable y consistente (O(n log n)). Esto es ideal para un sistema de ranking, ya que si la cantidad de jugadores crece drásticamente, el sistema no se volverá lento como ocurriría con algoritmos simples (Burbuja, Inserción) o en el peor caso de Quicksort.
+El programa recibe un arreglo con los siguientes jugadores: Jugador("Ana", 1200), Jugador("Pedro", 900), Jugador("Lucia", 1500).
+El programa debe mostrar por pantalla el ranking final ordenado desde el jugador con más puntos hasta el de menos puntos.
+El código debe incluir comentarios que expliquen la creación de la clase Jugador, cómo se accede al puntaje para compararlo y cómo se invirtió la lógica para ordenar de forma descendente.
+Para verificar que el resultado sea correcto, la consola debe imprimir en orden: Lucia (1500), Ana (1200) y Pedro (900)."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/10_analisis.md.

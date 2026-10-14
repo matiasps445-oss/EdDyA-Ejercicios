@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 10 (Sistema de ranking de puntajes).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo se estructuró el código para ordenar objetos (la clase Jugador) en lugar de números primitivos, y cómo el algoritmo accede al atributo "puntaje" para tomar sus decisiones.
+- Qué cambio específico se tuvo que hacer en la condición lógica tradicional del algoritmo (los operadores de comparación) para que el ordenamiento sea de mayor a menor y no de menor a mayor.
+- Por qué la elección de este algoritmo (MergeSort) es una decisión arquitectónica sólida y conveniente para un sistema de ranking profesional frente a otras alternativas.
+- Errores comunes al ordenar objetos en Java (por ejemplo, el riesgo de excepciones NullPointerException si un jugador o su nombre/puntaje son nulos).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/10_explicacion.md.
