@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/07_analisis.md" para resolver el Ejercicio 7 (Verificador de paréntesis balanceados).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un programa que reciba..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt detalló perfectamente la lógica de apilar aperturas y desapilar con cierres, así como las dos condiciones de falla (pila vacía al cerrar y pila con sobrantes al final), logrando un algoritmo de verificación exacto.
+*/
+2. Implementa el método verificador utilizando la clase Pila enlazada genérica (o de caracteres) para procesar el String.
+3. En el método main, incluye las 4 pruebas de ejecución exactas solicitadas (2 válidas y 2 inválidas) mostrando el resultado por consola.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

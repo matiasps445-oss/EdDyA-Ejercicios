@@ -1,0 +1,11 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 7 (Verificador de paréntesis balanceados) de la Guía 10:
+
+"Quiero implementar en Java un programa que reciba una expresión matemática en formato String y determine si sus paréntesis están balanceados, utilizando internamente nuestra Pila enlazada.
+La estructura ideal para resolver este problema es una Pila debido a su comportamiento LIFO (Last In, First Out). El algoritmo debe procesar la cadena de texto carácter por carácter. La lógica funciona así: cada vez que encontramos un paréntesis de apertura '(', lo guardamos en la pila (apilar/push) para registrar que se abrió un bloque. Cada vez que encontramos un paréntesis de cierre ')', debemos retirar un elemento de la pila (desapilar/pop) para emparejarlo.
+Los casos especiales que invalidan la expresión son dos: 
+1. Si encontramos un cierre ')' pero la pila está vacía, significa que hay un cierre sin su correspondiente apertura (ejemplo: '())(').
+2. Si al terminar de leer toda la expresión la pila NO está vacía, significa que quedaron aperturas sin cerrar (ejemplo: '(2+3').
+La expresión solo es válida si, al finalizar el recorrido, la pila queda perfectamente vacía.
+Para las pruebas de ejecución, quiero evaluar los ejemplos válidos: '(2+3)*(5-1)' y '((a+b)*c)', y los ejemplos inválidos: '(2+3' y '())(', imprimiendo true o false en cada caso."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/07_analisis.md.

@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 7 (Verificador de paréntesis balanceados).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué la Pila (LIFO) es la estructura de datos por excelencia en el desarrollo de compiladores e intérpretes para evaluar la sintaxis y anidamiento de bloques de código.
+- Cómo interactúa el algoritmo paso a paso al evaluar un caso inválido como `())(`: qué ocurre exactamente en el tercer carácter cuando se intenta hacer un `pop` en una pila que ya quedó vacía.
+- Por qué ignoramos el resto de los caracteres (números, operadores matemáticos) y solo nos concentramos en apilar/desapilar los paréntesis.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/07_explicacion.md.
