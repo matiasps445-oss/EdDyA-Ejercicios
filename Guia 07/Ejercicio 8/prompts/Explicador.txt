@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 8 (MergeSort paso a paso).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona el algoritmo MergeSort en su totalidad, detallando la diferencia conceptual y práctica entre la fase de "dividir" y la fase de "fusionar".
+- Cómo interviene la recursividad en la división y cuál es la condición de corte exacta que detiene las llamadas recursivas.
+- Cómo funciona la lógica interna del método de fusión (merge) para combinar eficientemente dos subarreglos que ya están ordenados en uno solo de mayor tamaño.
+- Errores comunes al implementar MergeSort (por ejemplo, calcular mal el índice medio, sobrescribir datos sin usar arreglos temporales, o tener problemas de desbordamiento de índices).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/08_explicacion.md.

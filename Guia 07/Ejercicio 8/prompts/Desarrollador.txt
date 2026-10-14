@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/08_analisis.md" para resolver el Ejercicio 8 (MergeSort paso a paso).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. El programa DEBE imprimir en consola el proceso paso a paso: mostrar el subarreglo actual cada vez que se divide, indicar explícitamente cuándo se llega al caso base (condición de corte), y mostrar el resultado de los subarreglos cada vez que se fusionan.
+3. Asegúrate de implementar la lógica dividiéndola al menos en dos métodos para mantener el Clean Code: uno principal para la división recursiva y otro auxiliar exclusivo para la fusión (merge).
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

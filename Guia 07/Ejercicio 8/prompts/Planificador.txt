@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 8 (MergeSort paso a paso) basado en la imagen adjunta "Ejercicio 8.png":
+
+"Quiero implementar en Java un programa que ordene un arreglo utilizando el algoritmo MergeSort.
+El razonamiento de este algoritmo se basa en la estrategia 'divide y vencerás', separando claramente dos etapas: 'dividir' y 'fusionar'. En la etapa de división, el arreglo se parte a la mitad recursivamente hasta llegar a la condición de corte (subarreglos de 1 o 0 elementos). En la etapa de fusión, estos pequeños subarreglos ordenados se combinan (merge) para formar arreglos más grandes y ordenados, hasta reconstruir el arreglo original completo.
+El programa recibe un arreglo de números enteros desordenados.
+El programa debe mostrar por pantalla paso a paso: cómo se divide el arreglo en cada llamada, cuándo se alcanza la condición de corte, y cómo se van fusionando los subarreglos en cada etapa.
+El código debe incluir comentarios que expliquen la diferencia entre el método que divide recursivamente y el método que fusiona.
+Para verificar que el resultado sea correcto, se debe visualizar en consola todo el árbol de división y el proceso inverso de reconstrucción ordenada."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/08_analisis.md.
