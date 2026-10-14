@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/06_analisis.md" para resolver el Ejercicio 6 (Cola de atención de clientes).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un sistema para manejar..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt explicó con total claridad por qué la estructura de Cola (FIFO) es la única lógica válida para representar el orden de llegada en un banco, logrando que el sistema de turnos funcione de manera justa desde el primer intento.
+*/
+2. Implementa la clase Cliente y la clase de la Cola enlazada adaptada para manejar estos objetos, asegurando el uso correcto de 'head' y 'tail'.
+3. En el método main, incluye las pruebas de ejecución exactas solicitadas (agregando 3 clientes, consultando el frente y atendiendo a uno), imprimiendo la información en consola de forma legible.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

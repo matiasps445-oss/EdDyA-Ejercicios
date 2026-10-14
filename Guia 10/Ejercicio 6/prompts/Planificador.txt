@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 6 (Cola de atención de clientes) de la Guía 10:
+
+"Quiero implementar en Java un sistema para manejar la fila de atención de clientes en un banco utilizando una cola enlazada simple.
+Primero, necesito crear una clase Cliente que contenga tres atributos: nombre, número de turno y motivo de consulta.
+El sistema debe permitir las siguientes operaciones: agregar un cliente a la fila (encolar/enqueue), atender al próximo cliente (desencolar/dequeue), consultar quién sigue (frente/front) e imprimir la fila actual.
+La estructura adecuada para este problema es, indiscutiblemente, una Cola. Esto se debe a que una fila de banco funciona bajo el principio FIFO (First In, First Out). El orden de llegada de los clientes dicta estrictamente el orden de atención para mantener la justicia: el primer cliente que se suma a la fila (apuntado por 'head') debe ser el primero en ser atendido y retirado, mientras que los clientes nuevos que van llegando se colocan siempre al final de la fila (apuntados por 'tail').
+Como casos especiales, el sistema debe contemplar y manejar adecuadamente el intento de 'atender al próximo cliente' o 'consultar quién sigue' cuando la fila está completamente vacía.
+Para probarlo, quiero agregar a la fila a 3 clientes distintos, consultar quién sigue (el primero), atender a ese cliente y volver a mostrar la fila para ver cómo avanzó el orden."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/06_analisis.md.

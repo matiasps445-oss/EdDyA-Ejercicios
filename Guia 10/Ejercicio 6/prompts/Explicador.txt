@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 6 (Cola de atención de clientes).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La representación del orden de llegada: Por qué el principio FIFO (First In, First Out) es fundamental para modelar sistemas de atención al público y por qué usar una Pila (LIFO) en este contexto generaría un sistema completamente injusto.
+- Cómo el puntero `tail` (final de la fila) nos permite agregar nuevos clientes al sistema en un tiempo constante O(1) sin tener que recorrer toda la fila de clientes que ya están esperando.
+- Cómo interactúan los nodos internamente cuando el cliente en el `head` (el frente) es "atendido" y cómo la fila avanza automáticamente al siguiente cliente.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/06_explicacion.md.
