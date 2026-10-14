@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 10 (Cola circular) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 10.png":
+
+"Quiero implementar en Java una clase de Cola Circular utilizando un arreglo de tamaño fijo.
+El objetivo principal de esta estructura es resolver el problema de desperdicio de espacio de la cola simple. Para reutilizar los espacios liberados al inicio del arreglo, los índices deben volver a la posición 0 una vez que alcanzan el límite final, simulando un anillo.
+El programa debe permitir las operaciones enqueue, dequeue, front, isEmpty y isFull.
+Para manejar el arreglo interno y lograr el comportamiento circular, es imperativo usar el operador módulo '%'. Cada vez que se incrementan los índices, la fórmula matemática debe ser: 'rear = (rear + 1) % tamaño' y 'front = (front + 1) % tamaño'. 
+Para detectar los casos límite: la cola se considera vacía si la cantidad actual de elementos (size) es 0. Se considera llena si la cantidad de elementos es igual al tamaño total del arreglo (size == tamaño).
+Para verificar que el resultado sea correcto, quiero ejecutar una prueba que consista en instanciar una cola de tamaño 3, llenarla con tres elementos, hacer un 'dequeue' del primero, y luego hacer un 'enqueue' de un elemento nuevo para demostrar visualmente que se reutiliza el índice 0 exitosamente."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/10_analisis.md.

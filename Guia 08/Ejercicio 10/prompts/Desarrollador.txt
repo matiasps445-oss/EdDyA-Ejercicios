@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/10_analisis.md" para resolver el Ejercicio 10 (Cola circular).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para el cierre del práctico:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa la clase de la Cola Circular utilizando estrictamente el operador módulo '%' para actualizar los índices 'front' y 'rear', garantizando que los espacios liberados se reutilicen correctamente sin desbordar el arreglo.
+3. En el método main, incluye una prueba de ejecución clara con los pasos solicitados (llenar, retirar uno, y volver a insertar) para demostrar cómo el puntero da la vuelta al arreglo (wrap-around), imprimiendo los resultados por consola.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

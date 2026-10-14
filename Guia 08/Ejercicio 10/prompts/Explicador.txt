@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 10 (Cola circular).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo el operador matemático módulo '%' resuelve de forma sumamente eficiente el "desperdicio de espacio", permitiendo que los índices (front y rear) den la vuelta al arreglo automáticamente como si estuviera conectado en un ciclo.
+- Cómo funcionan internamente las condiciones exactas para determinar si la cola está completamente llena o completamente vacía, y por qué llevar un contador 'size' simplifica enormemente esta verificación en una arquitectura circular.
+- Un análisis paso a paso de la prueba del método main, simulando visualmente cómo quedaron los índices al insertar un elemento en la posición 0 después de haber liberado espacio.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial detalló explícitamente la fórmula matemática con el operador módulo '%' y la lógica de los límites, por lo que no fue necesario hacer ajustes posteriores al prompt para lograr el comportamiento circular perfecto.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/10_explicacion.md.
