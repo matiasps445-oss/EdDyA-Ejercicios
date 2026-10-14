@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 7 (Peor caso de Quicksort).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona el flujo de llamadas recursivas en este escenario específico donde el arreglo ya está ordenado.
+- Por qué elegir siempre el primer elemento como pivote en este caso genera un mal rendimiento y representa el "peor caso" de Quicksort (explica la diferencia entre dividir el arreglo a la mitad vs. reducirlo de a un elemento por vez).
+- Analiza la cantidad de llamadas recursivas impresas por consola: ¿es eficiente?
+- Posibles alternativas de diseño (por ejemplo, elegir un pivote aleatorio o el elemento central) para evitar caer en este peor caso.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/07_explicacion.md.

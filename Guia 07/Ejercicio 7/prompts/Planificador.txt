@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/07_analisis.md" para resolver el Ejercicio 7 (Peor caso de Quicksort).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa Quicksort utilizando siempre el primer elemento como pivote y aplicándolo sobre el arreglo {1, 2, 3, 4, 5, 6, 7}.
+3. Implementa un contador global o pasivo que registre la cantidad exacta de llamadas recursivas que realiza el método y muéstralo por consola al finalizar.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.
