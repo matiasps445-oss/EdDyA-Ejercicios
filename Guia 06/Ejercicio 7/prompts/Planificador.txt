@@ -1,0 +1,16 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 7 (Sumar dígitos) sobre recursividad:
+
+"Quiero implementar en Java una función recursiva que sume los dígitos de un número entero positivo.
+Este problema puede resolverse recursivamente porque la suma de los dígitos de un número es igual a su último dígito más la suma de los dígitos del resto del número.
+Para obtener el último dígito de forma matemática se utiliza la operación módulo 10 (numero % 10).
+Para reducir el número y quitarle ese último dígito en cada paso, se utiliza la división entera por 10 (numero / 10).
+El caso base es cuando el número es menor a 10, porque está compuesto por un solo dígito y su suma es simplemente el mismo número, deteniendo así la recursión.
+El caso recursivo se forma combinando los resultados: (numero % 10) + sumarDigitos(numero / 10).
+La función debe devolver un número entero con la suma acumulada.
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probarlo con estos casos para validar:
+- caso 1: numero = 8
+- caso 2: numero = 45
+- caso 3: numero = 1234"
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/07_analisis.md.

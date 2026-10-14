@@ -1,0 +1,12 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 7 (Sumar dígitos).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de sumarDigitos(1234).
+- Cuál es el caso base implementado y por qué se detiene cuando el número es menor a 10.
+- Cómo funciona matemáticamente la extracción del último dígito usando el módulo (%) y la reducción del número usando la división entera (/).
+- Cómo se combinan los resultados al regresar de la recursión para obtener la suma final.
+- Errores comunes al implementar esto en Java (por ejemplo, trabajar con números negativos sin aplicar Math.abs() o confundir los operadores / y %).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/07_explicacion.md.
