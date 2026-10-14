@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 4 (Historial de navegación) de la guía de Pilas y Colas, basado en la imagen adjunta "Ejercicio 4.png":
+
+"Quiero implementar en Java un simulador simple de historial de navegación web utilizando una Pila (Stack) basada en un arreglo de Strings para guardar las URLs.
+Este problema funciona fundamentalmente bajo el principio LIFO (Last In, First Out) porque en cualquier navegador web, la última página que visitaste es obligatoriamente la primera a la que regresas cuando presionas el botón 'Atrás'. 
+Las operaciones que necesito son: visitar una página (equivalente a 'push', apilando la nueva URL), volver a la página anterior (equivalente a 'pop', que retira la página actual para regresar a la anterior) y consultar la página actual (equivalente a 'peek').
+El arreglo interno se manejará con una variable de índice para el tope iniciada en -1. Los casos límite que se deben contemplar son: intentar volver atrás cuando el historial está vacío (no hay páginas previas) y visitar una página cuando el arreglo alcanzó su tamaño máximo.
+Para la prueba de ejecución, quiero visitar 'google.com', luego 'github.com' y finalmente 'stackoverflow.com'. Después, simular presionar el botón de 'Atrás' (haciendo un pop) y consultar la página actual para comprobar que efectivamente regresamos a 'github.com'."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/04_analisis.md.

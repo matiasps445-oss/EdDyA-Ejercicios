@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 4 (Historial de navegación).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué el historial de un navegador es uno de los mejores ejemplos del mundo real para explicar el principio LIFO (Last In, First Out).
+- Cómo el arreglo interno y la variable tope cambian de estado al "visitar" una nueva URL y al "volver atrás", simulando el caso de prueba paso a paso.
+- Cómo se protege el programa (casos límite) si un usuario presiona "Atrás" repetidamente hasta vaciar el historial.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial explicó perfectamente la relación entre el historial y el principio LIFO, por lo que no fue necesario realizar ningún ajuste al prompt para obtener el comportamiento esperado.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/04_explicacion.md.
