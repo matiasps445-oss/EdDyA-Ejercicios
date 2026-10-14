@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 3 (Validar paréntesis balanceados).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué la Pila (LIFO) es la estructura ideal para este algoritmo y cómo empareja naturalmente el último paréntesis abierto con el primer paréntesis cerrado que encuentra.
+- Cómo funciona exactamente la detección de errores (el desbalanceo) cuando falla el 'pop' (pila vacía) o cuando al final sobra algo en la pila.
+- Una simulación paso a paso visualizando el estado de la pila al procesar la expresión válida '(5+3)*(2+1)'.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo indicando que el prompt inicial detalló a la perfección cuándo usar push y cuándo usar pop, por lo que no se requirió ajustar el prompt para obtener un análisis y desarrollo exitosos.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/03_explicacion.md.

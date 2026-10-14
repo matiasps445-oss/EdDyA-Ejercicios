@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/03_analisis.md" para resolver el Ejercicio 3 (Validar paréntesis balanceados).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para el cierre del práctico:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa la lógica para recorrer el String e interactuar con la Pila (push para abrir, pop para cerrar) validando rigurosamente los casos donde la expresión queda desbalanceada.
+3. En el método main, incluye las dos pruebas de ejecución con las expresiones solicitadas, imprimiendo por consola "válido" o "inválido" según corresponda.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

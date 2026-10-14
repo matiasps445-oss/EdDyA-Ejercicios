@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 3 (Validar paréntesis balanceados) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 3.png":
+
+"Quiero implementar en Java un programa que reciba una expresión matemática en formato String y determine si los paréntesis están correctamente balanceados, devolviendo 'válido' o 'inválido'.
+Este problema se resuelve de forma óptima utilizando una Pila. La estrategia consiste en recorrer la expresión carácter por carácter: cada vez que encontramos un paréntesis de apertura '(', lo guardamos haciendo un 'push' en la pila. Cuando encontramos un paréntesis de cierre ')', debemos realizar un 'pop' para emparejarlo con el último paréntesis abierto. 
+Los casos de invalidez (casos límite) ocurren si: 
+1. Encontramos un ')' y al intentar hacer 'pop' la pila está vacía (hay un cierre sin apertura).
+2. Al terminar de leer toda la expresión, la pila no queda vacía (hay un '(' que nunca se cerró).
+Para verificar el comportamiento, quiero ejecutar pruebas de ejecución con estos dos casos exactos: la expresión '(5+3)*(2+1)' que debe devolver 'válido', y la expresión '(5+3))*(2+1' que debe devolver 'inválido'."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/03_analisis.md.
