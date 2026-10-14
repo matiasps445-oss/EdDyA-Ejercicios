@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 5 (ShellSort explicando los gaps) basado en la imagen adjunta "Ejercicio 5.png":
+
+"Quiero implementar en Java un programa que ordene un arreglo utilizando el algoritmo ShellSort.
+El razonamiento de este algoritmo es una mejora directa sobre Insertion Sort. En lugar de comparar y desplazar solo elementos vecinos (lo cual es lento si un número pequeño está al final del arreglo), ShellSort utiliza 'saltos' o 'gaps' para comparar elementos que están separados por una cierta distancia. Esto permite que los elementos se muevan grandes distancias rápidamente hacia su posición correcta. A medida que avanza el algoritmo, el gap se va reduciendo hasta llegar a 1, donde realiza un último Insertion Sort, pero sobre un arreglo que ya está casi ordenado (haciéndolo ultra eficiente).
+El programa recibe un arreglo de números enteros desordenados.
+El programa debe mostrar por pantalla el valor del gap en cada etapa y el estado del arreglo luego de cada pasada correspondiente a ese gap.
+El código debe incluir comentarios que expliquen cómo se calcula y se reduce el gap.
+Para verificar que el resultado sea correcto, se debe comprobar que los gaps disminuyan progresivamente y el arreglo quede ordenado de menor a mayor."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/05_analisis.md.

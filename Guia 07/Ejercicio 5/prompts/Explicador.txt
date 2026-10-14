@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 5 (ShellSort explicando los gaps).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona internamente el algoritmo ShellSort paso a paso, haciendo énfasis en el concepto de "gap" (salto).
+- Por qué ShellSort es una mejora significativa frente a Insertion Sort y cómo estos saltos iniciales preparan el terreno para que el último paso (cuando el gap es 1) sea sumamente rápido.
+- Cómo impacta la elección de la secuencia de los gaps (por ejemplo, dividir siempre por 2) en el rendimiento general del algoritmo.
+- Errores comunes al implementar ShellSort (por ejemplo, confundir los índices al comparar elementos separados por el gap).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/05_explicacion.md.
