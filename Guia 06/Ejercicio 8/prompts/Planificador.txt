@@ -1,0 +1,14 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 8 (Invertir una palabra) sobre recursividad:
+
+"Quiero implementar en Java una función recursiva que invierta un String.
+Este problema puede resolverse recursivamente porque invertir una palabra entera es equivalente a tomar el primer carácter, invertir el resto de la palabra y luego colocar ese primer carácter al final.
+El caso base es cuando la cadena está vacía o tiene un solo carácter (length <= 1), porque una cadena así ya está invertida por naturaleza y detiene la recursión.
+El caso recursivo se forma llamando a la función con el resto de la cadena (separando el primer carácter) y concatenando ese primer carácter al final. En cada llamada la cadena se reduce eliminando su primer letra.
+Al volver de la recursión, el resultado se reconstruye concatenando los caracteres en orden inverso. La función debe devolver un String.
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probarlo con estos casos:
+- caso 1: palabra = "a"
+- caso 2: palabra = "hola"
+- caso 3: palabra = "recursividad" "
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/08_analisis.md.

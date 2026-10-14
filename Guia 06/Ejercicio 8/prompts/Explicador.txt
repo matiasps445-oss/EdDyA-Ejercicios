@@ -1,0 +1,12 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 8 (Invertir una palabra).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de invertir la palabra "hola".
+- Cuál es el caso base para una cadena vacía o de un solo carácter, y por qué detiene la ejecución.
+- Cómo se utilizan los métodos de la clase String en Java (como substring y charAt) para separar el primer carácter del resto y reducir la cadena en cada llamada.
+- Cómo se reconstruye el resultado final al resolverse (volver) de la pila de recursión.
+- Errores comunes al manipular Strings con recursividad (por ejemplo, excepciones de tipo StringIndexOutOfBoundsException o el manejo de valores null).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/08_explicacion.md.
