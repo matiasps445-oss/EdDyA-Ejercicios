@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/01_analisis.md" para resolver el Ejercicio 1 (Implementar una pila de enteros).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para el cierre del práctico:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa la clase PilaEnteros con su arreglo interno, la variable 'top' inicializada en -1, y todos los métodos solicitados con el manejo correcto de sus casos límite.
+3. En el método main, incluye una prueba de ejecución clara con datos de ejemplo (hacer varios push, un pop, un peek, y verificar los estados isEmpty e isFull) e imprime los resultados por consola.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

@@ -1,0 +1,13 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 1 (Implementar una pila de enteros) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 1.png":
+
+"Quiero implementar en Java una clase llamada PilaEnteros utilizando una estructura de datos de arreglo de tamaño fijo.
+El comportamiento que espero obtener es el de una estructura LIFO (Last In, First Out), donde el último elemento en entrar sea el primero en salir.
+La clase debe tener las operaciones fundamentales: push (insertar), pop (eliminar y devolver), peek (ver el tope sin eliminar), isEmpty (saber si está vacía), isFull (saber si está llena) y size (cantidad actual de elementos).
+Para manejar el arreglo interno, utilizaré una variable entera llamada 'top' (tope). El valor inicial de 'top' debe ser -1, lo que indica lógicamente que la pila está vacía porque no apunta a ningún índice válido del arreglo.
+Al hacer 'push', primero se debe incrementar 'top' en 1 y luego guardar el valor en esa nueva posición. Al hacer 'pop', se recupera el valor en la posición 'top' y luego se decrementa 'top' en 1.
+Los casos límite que deben contemplarse son: 
+1. Cuando la pila está vacía (top == -1), hacer un 'pop' o 'peek' debe arrojar una excepción o mensaje de error porque no hay elementos para sacar.
+2. Cuando la pila está llena (top == tamaño del arreglo - 1), hacer un 'push' debe arrojar un error de desbordamiento (Stack Overflow) impidiendo agregar más elementos.
+Para verificar el código, quiero hacer pruebas de ejecución agregando tres números, verificando el tope, sacando uno y comprobando el tamaño."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/01_analisis.md.

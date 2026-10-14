@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 1 (Implementar una pila de enteros).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona conceptualmente el arreglo interno y por qué la variable 'top' iniciada en -1 es la clave de todo el comportamiento de la pila.
+- Qué ocurre exactamente en la memoria y con los índices al ejecutar un 'push' y un 'pop' (simula visualmente un ejemplo corto).
+- Cómo el diseño previene fallos validando los casos límite (Stack Overflow al estar llena y Stack Underflow al estar vacía).
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial entregado al Agente Planificador fue lo suficientemente claro y explícito en sus reglas como para no requerir ajustes posteriores para lograr la solución correcta.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/01_explicacion.md.
