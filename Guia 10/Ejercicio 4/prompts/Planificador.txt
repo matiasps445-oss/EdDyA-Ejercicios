@@ -1,0 +1,7 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 4 (Cola genérica) de la Guía 10:
+
+"Quiero modificar nuestra implementación anterior de Cola enlazada para que sea una Cola Genérica utilizando la sintaxis <T> de Java.
+El objetivo es que la estructura pueda almacenar cualquier tipo de dato de forma segura. Es fundamental entender que el comportamiento FIFO (First In, First Out) se mantiene intacto independientemente del tipo de dato almacenado. Esto ocurre porque la lógica matemática de la cola (encolar siempre al final usando el puntero 'tail' y desencolar siempre al frente usando el puntero 'head') rige exclusivamente sobre los Nodos contenedores y sus enlaces. A la estructura de la cola no le importa qué hay dentro del nodo (la carga útil); solo le importa el orden de los eslabones.
+Para comprobar que la implementación funciona correctamente, el método main debe instanciar y probar dos colas distintas: una ColaEnlazada<String> para almacenar nombres de personas, y una ColaEnlazada<Cliente> para almacenar objetos de una clase propia 'Cliente' (que debe crearse con atributos básicos como nombre y número de cliente). Se deben encolar y desencolar elementos en ambas colas para demostrar su versatilidad."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/04_analisis.md.

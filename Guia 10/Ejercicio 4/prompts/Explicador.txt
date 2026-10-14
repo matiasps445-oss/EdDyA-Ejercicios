@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 4 (Cola genérica).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo la genericidad (`<T>`) afecta las firmas de los métodos `encolar` y `desencolar`, reemplazando el tipo de dato fijo por el parámetro genérico.
+- La confirmación del principio FIFO: Por qué la lógica interna de los punteros (`head` y `tail`) permanece absolutamente inalterable sin importar si estamos procesando un simple `String` o un objeto complejo como `Cliente`.
+- La seguridad en tiempo de compilación: Qué pasaría (y qué error lanzaría el compilador) si accidentalmente intentáramos ingresar un objeto `Cliente` dentro de la cola que fue instanciada para nombres de personas.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/04_explicacion.md.

@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/04_analisis.md" para resolver el Ejercicio 4 (Cola genérica).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero modificar nuestra implementación anterior..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt explicó a la perfección cómo la estructura FIFO opera sobre las referencias de los nodos y no sobre los datos en sí, garantizando una implementación genérica sólida y funcional al primer intento.
+*/
+2. Implementa las clases genéricas Nodo<T> y ColaEnlazada<T>, actualizando las firmas de todos los métodos. También crea la clase 'Cliente'.
+3. En el método main, incluye las pruebas de ejecución exactas solicitadas (usando nombres de personas en una cola y objetos Cliente en la otra), mostrando por consola las acciones de encolar y desencolar para ambas.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.
