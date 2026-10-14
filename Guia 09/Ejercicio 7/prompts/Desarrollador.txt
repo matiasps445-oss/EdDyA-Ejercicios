@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/07_analisis.md" para resolver el Ejercicio 7 de la Guía 9 (Modificar un elemento de la lista).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un método 'void modificar..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt diferenció de manera excelente entre modificar la carga de un nodo (el dato) y modificar los enlaces de la estructura (las referencias), por lo que el algoritmo generado cumplió su propósito de forma segura y sin alterar el tamaño de la lista.
+*/
+2. Implementa el método 'modificar' asegurándote de realizar la validación temprana de la posición (Fail-Fast) antes de iniciar el ciclo while/for.
+3. En el método main, incluye la prueba de ejecución exacta descrita (cambiar el 20 por un 99 en la posición 1) e imprime los resultados.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

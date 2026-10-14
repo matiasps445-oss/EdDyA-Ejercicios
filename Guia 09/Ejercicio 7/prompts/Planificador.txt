@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 7 de la Guía 9 (Modificar un elemento de la lista):
+
+"Quiero implementar en Java un método 'void modificar(int posicion, int nuevoDato)' para nuestra lista enlazada simple.
+La función de este método es localizar un nodo existente en una posición específica y actualizar únicamente el valor que almacena.
+Primero, es estrictamente necesario validar la posición antes de recorrer (posicion < 0 o posicion >= size) arrojando una excepción si es inválida, para evitar errores de ejecución.
+Si la posición es válida, el algoritmo debe recorrer la lista con un puntero 'actual' desde el 'head' hasta llegar al índice indicado. Una vez allí, se debe sobreescribir el valor usando 'actual.setDato(nuevoDato)'.
+Es vital entender la diferencia arquitectónica de esta operación: modificar el dato de un nodo cambia solamente la "carga" útil (el valor) que transporta el eslabón, manteniendo intacta la estructura de la lista. En cambio, modificar la referencia al siguiente nodo (con setSiguiente) altera la topología de la lista, conectando o desconectando eslabones. Aquí solo queremos cambiar el dato, por lo que las referencias no se tocan.
+Para probarlo, quiero crear una lista con los valores 10, 20 y 30. Luego modificar el elemento en la posición 1 (el 20) por un 99, e imprimir la lista para comprobar que ahora es 10, 99, 30."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/07_analisis.md.
