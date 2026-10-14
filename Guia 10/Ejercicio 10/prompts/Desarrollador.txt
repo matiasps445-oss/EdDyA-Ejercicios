@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/10_analisis.md" para resolver el Ejercicio 10 (Lista doblemente enlazada simple).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java una Lista Doblemente..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt definió detalladamente la necesidad de las referencias 'anterior' y 'siguiente', y desglosó a la perfección los 5 casos especiales al eliminar nodos (vacía, único nodo, head, tail, medio), logrando que los enlaces dobles se mantuvieran consistentes.
+*/
+2. Implementa las clases NodoDoble<T> y ListaDoblementeEnlazada<T> gestionando rigurosamente los punteros dobles en cada operación.
+3. En el método main, incluye las pruebas de ejecución exactas solicitadas (inserciones mixtas, impresiones bidireccionales y las 3 eliminaciones de casos distintos).
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

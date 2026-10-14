@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 10 (Lista doblemente enlazada simple).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- El balance entre costo y beneficio (Trade-off): Explica cómo la lista doblemente enlazada nos da una enorme ventaja en tiempo de ejecución (navegación bidireccional y eliminaciones más sencillas) a costa de un mayor consumo de memoria (el puntero extra `anterior` en cada nodo).
+- Análisis de la eliminación en el medio: Desglosa visualmente cómo funciona la doble reconexión matemática (`actual.anterior.setSiguiente(...)` y `actual.siguiente.setAnterior(...)`) aislando el nodo eliminado para el Garbage Collector.
+- Por qué, a diferencia de la lista simplemente enlazada, en la lista doblemente enlazada NO necesitamos llevar un puntero "retrasado" (variable `nodoAnterior`) durante el bucle `while` para poder eliminar un elemento.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/10_explicacion.md.

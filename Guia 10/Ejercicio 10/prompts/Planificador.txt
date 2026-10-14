@@ -1,0 +1,19 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 10 (Lista doblemente enlazada simple) de la Guía 10:
+
+"Quiero implementar en Java una Lista Doblemente Enlazada genérica (<T>). 
+Para esta estructura, cada nodo (NodoDoble) no solo debe tener una referencia al 'siguiente' nodo, sino también una referencia al nodo 'anterior'. Se necesitan ambas referencias porque esto permite recorrer la estructura bidireccionalmente, abriendo la posibilidad de realizar operaciones de forma más eficiente y flexible, como navegar hacia atrás.
+La lista debe administrar dos punteros principales: 'head' (inicio) y 'tail' (final).
+Las operaciones que debe permitir son:
+1. Insertar al inicio: El nuevo nodo apunta al head actual, y si la lista no estaba vacía, el head actual debe apuntar hacia atrás al nuevo nodo.
+2. Insertar al final: Usando 'tail', se enlaza el nuevo nodo al final en O(1).
+3. Imprimir hacia adelante: Recorriendo desde 'head' usando la referencia 'siguiente'.
+4. Imprimir hacia atrás: Recorriendo desde 'tail' usando la referencia 'anterior'.
+5. Eliminar un elemento: Esta operación tiene casos especiales críticos que deben contemplarse al reconectar los enlaces: 
+   - Si la lista está vacía, no se hace nada.
+   - Si el elemento a eliminar es el único en la lista (head == tail), ambos punteros quedan en null.
+   - Si es el primer elemento (head), el nuevo head será el 'siguiente', y su 'anterior' debe quedar en null.
+   - Si es el último elemento (tail), el nuevo tail será el 'anterior', y su 'siguiente' debe quedar en null.
+   - Si está en el medio, se deben puentear ambos nodos vecinos: actual.anterior.siguiente = actual.siguiente y actual.siguiente.anterior = actual.anterior.
+Para la prueba, quiero insertar 3 elementos al inicio y 2 al final, imprimir hacia adelante, imprimir hacia atrás, eliminar el primer elemento, eliminar el último, eliminar uno del medio, y volver a imprimir para verificar."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/10_analisis.md.
