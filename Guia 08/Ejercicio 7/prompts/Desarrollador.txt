@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/07_analisis.md" para resolver el Ejercicio 7 (Sistema de turnos para atención).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para el cierre del práctico:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa la clase del sistema de turnos manejando el arreglo interno y los punteros para garantizar un comportamiento estricto de Cola (FIFO).
+3. En el método main, incluye la prueba de ejecución exacta agregando a Ana, Pedro y Lucia, atendiendo a la primera persona y mostrando el estado en consola para validar el orden de atención.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

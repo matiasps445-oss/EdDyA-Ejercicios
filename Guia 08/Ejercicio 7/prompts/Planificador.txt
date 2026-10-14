@@ -1,0 +1,8 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 7 (Sistema de turnos para atención) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 7.png":
+
+"Quiero implementar en Java un sistema de turnos para atención en una oficina utilizando una estructura de Cola (Queue) basada en arreglos. Cada persona que llega recibe un turno (representado por su nombre en un String) y se agrega a la cola.
+Este problema utiliza obligatoriamente el principio FIFO (First In, First Out) y no LIFO (Last In, First Out) porque simula una fila del mundo real: lo justo y lógico es que el primero en llegar sea el primero en ser atendido. Si utilizáramos LIFO (como en una Pila), la última persona en llegar sería atendida de inmediato, dejando a los primeros esperando indefinidamente.
+El sistema debe tener las siguientes operaciones: agregar persona (equivalente a enqueue), atender siguiente persona (equivalente a dequeue, que retira y devuelve a la persona) y consultar quién está primero (equivalente a front).
+Para verificar la ejecución, quiero agregar a 'Ana', 'Pedro' y 'Lucia'. Luego consultar quién está primero (debería ser Ana), atender a la siguiente persona (retirando a Ana) y volver a consultar quién está primero (debería ser Pedro)."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/07_analisis.md.

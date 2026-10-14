@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 7 (Sistema de turnos para atención).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué una Cola (FIFO) es el único modelo matemático y lógico viable para representar sistemas de atención al cliente y por qué una Pila (LIFO) sería injusta.
+- Cómo interactúan los índices del arreglo interno cuando "ingresa" una nueva persona a la fila versus cuando una persona es "atendida".
+- Qué sucedería en el código si intentamos "atender" a alguien cuando la cola está vacía.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial justificó adecuadamente la elección de FIFO sobre LIFO para este problema del mundo real, por lo que no hubo necesidad de modificar el prompt para que el algoritmo funcionara como se esperaba.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/07_explicacion.md.
