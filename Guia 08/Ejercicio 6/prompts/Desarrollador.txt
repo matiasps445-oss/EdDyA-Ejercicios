@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/06_analisis.md" para resolver el Ejercicio 6 (Implementar una cola simple de enteros).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para el cierre del práctico:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa la clase ColaEnteros con su arreglo interno y los índices 'front' y 'rear', asegurándote de implementar correctamente todas las operaciones solicitadas (enqueue, dequeue, front, isEmpty, isFull, size).
+3. En el método main, incluye la prueba de ejecución exacta con los datos de ejemplo (10, 20, 30), demostrando los cambios e imprimiendo los resultados por consola.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

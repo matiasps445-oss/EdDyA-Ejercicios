@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 6 (Implementar una cola simple de enteros).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona conceptualmente el principio FIFO (First In, First Out) y por qué requiere dos punteros distintos (front y rear) en lugar de uno solo como la Pila.
+- Qué ocurre paso a paso en la memoria y con los índices al ejecutar un 'enqueue' y un 'dequeue'.
+- Cómo el código valida los casos límite para evitar desbordamientos de memoria al intentar extraer de una cola vacía o insertar en una cola llena.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial explicó perfectamente el rol de los índices front y rear y sus desplazamientos, por lo que no fue necesario realizar ajustes al prompt para obtener un análisis correcto.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/06_explicacion.md.

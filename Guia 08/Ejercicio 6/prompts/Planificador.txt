@@ -1,0 +1,11 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 6 (Implementar una cola simple de enteros) de la guía de Pilas y Colas, basado en la imagen adjunta "Ejercicio 6.png":
+
+"Quiero implementar en Java una clase llamada ColaEnteros utilizando una estructura de arreglo de tamaño fijo.
+El comportamiento esperado es el de una estructura FIFO (First In, First Out), donde el primer elemento en entrar debe ser el primero en salir.
+La clase debe tener las siguientes operaciones: enqueue (encolar/agregar), dequeue (desencolar/retirar), front (consultar el primero sin retirarlo), isEmpty (saber si está vacía), isFull (saber si está llena) y size (cantidad de elementos).
+Para manejar el arreglo interno, utilizaré dos índices: 'front' y 'rear'. El índice 'front' sirve para apuntar a la posición del primer elemento que está listo para salir, mientras que 'rear' sirve para apuntar a la posición del último elemento que ingresó. 
+Cuando se agrega un elemento (enqueue), el índice 'rear' avanza una posición (se incrementa en 1) y el valor se guarda allí. Cuando se retira un elemento (dequeue), se recupera el valor en la posición 'front' y luego el índice 'front' avanza una posición (se incrementa en 1).
+Los casos límite son: intentar hacer dequeue o front cuando la cola está vacía (debe lanzar error) e intentar hacer enqueue cuando la cola está llena (rear alcanza el límite del arreglo, debe lanzar error).
+Para verificar la ejecución, quiero encolar los números 10, 20 y 30. Luego consultar el front, desencolar un elemento y verificar que el nuevo front sea 20 y el size sea 2."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/06_analisis.md.
