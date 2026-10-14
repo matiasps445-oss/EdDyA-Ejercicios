@@ -1,0 +1,13 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 1 (Crear una lista enlazada simple desde cero) de la guía de Listas Enlazadas Simples:
+
+"Quiero implementar en Java una lista enlazada simple de números enteros desde cero, sin utilizar estructuras de la API de Java como ArrayList o LinkedList. 
+Para la estructura de clases, considero necesario crear una clase 'Nodo' que represente cada eslabón, conteniendo un entero 'dato' y una referencia 'siguiente' que apunte al próximo nodo. Luego, una clase 'ListaEnlazada' que administre la estructura.
+La función principal de la lista recae sobre el atributo 'head' (cabeza), que sirve como punto de entrada único apuntando al primer nodo; si la lista está vacía, 'head' es null. También usaré un atributo 'size' para mantener el tamaño actualizado.
+Debo implementar las siguientes operaciones: 
+1. insertarAlInicio(int dato): crea un nodo, hace que su 'siguiente' apunte al 'head' actual, y luego actualiza 'head' para que sea este nuevo nodo. Aumenta 'size'.
+2. insertarAlFinal(int dato): crea un nodo. Si la lista está vacía, va directo al 'head'. Si no, requiere un recorrido secuencial desde 'head' saltando de nodo en nodo hasta encontrar aquel cuyo 'siguiente' sea null, y lo enlaza allí. Aumenta 'size'.
+3. imprimir(): recorre la lista secuencialmente mostrando los datos.
+4. estaVacia(): retorna true si 'head' es null.
+5. getSize(): devuelve el valor de 'size'."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/01_analisis.md.

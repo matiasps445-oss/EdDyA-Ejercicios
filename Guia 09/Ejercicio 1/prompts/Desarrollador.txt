@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/01_analisis.md" para resolver el Ejercicio 1 (Crear una lista enlazada simple desde cero).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt fue lo suficientemente claro y detalló correctamente el uso de la clase Nodo, la referencia head y la actualización del tamaño, por lo que el código generado funcionó a la primera.
+*/
+2. Implementa la clase Nodo y la clase ListaEnlazada con los métodos requeridos (insertarAlInicio, insertarAlFinal, imprimir, estaVacia, getSize). 
+3. No utilices ninguna colección de Java (como LinkedList). Todo debe ser construido desde cero con referencias.
+4. En el método main, incluye una prueba de ejecución clara insertando elementos al inicio y al final, mostrando el tamaño y verificando la impresión.

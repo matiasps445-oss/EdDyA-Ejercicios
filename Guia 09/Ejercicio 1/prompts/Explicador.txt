@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 1 (Crear una lista enlazada simple desde cero).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo se relacionan conceptualmente la clase Nodo (el envoltorio de los datos y el enlace) y la clase ListaEnlazada (la administradora).
+- Por qué la referencia 'head' es el concepto más crítico de toda la estructura y qué pasaría si perdemos su valor accidentalmente.
+- Cómo funciona exactamente el "recorrido secuencial" en el método `insertarAlFinal` usando un puntero temporal/auxiliar para no modificar ni perder el 'head'.
+- La eficiencia temporal: por qué `insertarAlInicio` es muy rápido (O(1)) mientras que `insertarAlFinal` requiere recorrer toda la estructura (O(n)).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/01_explicacion.md.
