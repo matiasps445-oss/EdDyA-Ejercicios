@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/10_analisis.md" para resolver el Ejercicio 10 de la Guía 9 (Convertir la lista de enteros en una lista genérica).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero tomar nuestra implementación de lista enlazada..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt identificó correctamente que la lógica de los punteros es agnóstica al tipo de dato, y especificó claramente los cambios en las firmas de los métodos, logrando una clase genérica funcional en el primer intento.
+*/
+2. Implementa las clases Nodo<T> y ListaEnlazada<T> adaptando los métodos principales para que soporten tipos genéricos.
+3. En el método main, incluye la prueba de ejecución exacta instanciando una lista para Integer y otra para String, agregando elementos a ambas y mostrándolas por consola.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

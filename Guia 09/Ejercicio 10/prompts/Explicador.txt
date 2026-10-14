@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 10 de la Guía 9 (Convertir la lista de enteros en una lista genérica).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- El concepto de "separación de responsabilidades" (Separation of Concerns): cómo el diseño de listas enlazadas separa magistralmente la estructura (el enlace de nodos) de la carga útil (el dato T).
+- Por qué en Java es obligatorio usar Clases Envoltorio (Wrapper classes como Integer) en lugar de tipos primitivos (como int) al trabajar con genéricos <T>.
+- Cómo el uso de genéricos garantiza la "seguridad de tipos" (Type Safety) en tiempo de compilación, evitando que accidentalmente insertemos un objeto Alumno en una lista de Strings, y por qué esto es mejor que hacer una lista de tipo genérico absoluto `Object`.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/10_explicacion.md.
