@@ -1,0 +1,7 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 2 de la Guía 9 (Buscar elementos en una lista enlazada):
+
+"Quiero implementar en Java un método 'boolean buscar(int dato)' para la lista enlazada simple que creamos anteriormente. 
+A diferencia de un arreglo tradicional, en una lista enlazada no podemos acceder a los elementos directamente utilizando un índice numérico (como arreglo[i]). Esto se debe a que los nodos se crean dinámicamente y están dispersos en distintas posiciones de la memoria de la computadora, no están en bloques contiguos.
+Por lo tanto, la búsqueda requiere obligatoriamente un recorrido secuencial. El algoritmo debe utilizar un nodo auxiliar (puntero temporal) que comience apuntando a 'head'. A partir de ahí, debe avanzar secuencialmente de nodo en nodo (usando getSiguiente()) mientras el nodo actual no sea null. En cada paso, debe verificar si el dato almacenado coincide con el buscado para devolver 'true'. Si el bucle finaliza porque se llegó a 'null', significa que el elemento no existe en la lista y debe devolver 'false'."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/02_analisis.md.

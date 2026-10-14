@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 2 de la Guía 9 (Buscar elementos en una lista enlazada).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La diferencia fundamental de acceso a memoria entre los arreglos estáticos (acceso directo en tiempo O(1)) y las listas enlazadas (acceso secuencial).
+- Cómo el bucle "while" junto con la condición "actual != null" protege al algoritmo de arrojar una excepción (NullPointerException) al llegar al final de la lista.
+- Por qué siempre es obligatorio usar un puntero auxiliar (por ejemplo, 'Nodo actual = head') para iterar en lugar de utilizar directamente la variable 'head' (explicando el riesgo de perder la lista completa).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/02_explicacion.md.
