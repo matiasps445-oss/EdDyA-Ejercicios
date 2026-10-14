@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 9 de la Guía 9 (Invertir una lista enlazada simple).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué es matemáticamente imposible invertir una lista enlazada simple usando solamente un puntero o dos punteros sin provocar una fuga de memoria o perder el acceso al resto de los elementos.
+- Un paso a paso visual (diagrama mental) de lo que ocurre en la primera iteración del bucle, mostrando cómo el nodo original 'head' (el 10) pasa a apuntar a `null`.
+- Por qué al finalizar el ciclo iterativo (cuando `actual` es null), la variable `anterior` contiene exactamente la referencia al que era el último nodo de la lista original, convirtiéndose en el nuevo `head`.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/09_explicacion.md.

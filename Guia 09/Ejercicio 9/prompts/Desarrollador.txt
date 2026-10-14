@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/09_analisis.md" para resolver el Ejercicio 9 de la Guía 9 (Invertir una lista enlazada simple).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un método 'void invertir..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt explicó con total claridad la necesidad de usar las tres referencias auxiliares (anterior, actual, siguiente) y el orden crítico de sus actualizaciones, por lo que el algoritmo de inversión se ejecutó sin perder nodos en la memoria.
+*/
+2. Implementa el método 'invertir' utilizando estrictamente el ciclo iterativo con los tres punteros mencionados y reasignando el 'head' al finalizar.
+3. En el método main, incluye la prueba de ejecución armando la lista (10, 20, 30, 40), imprimiéndola, llamando a la función de inversión y volviendo a imprimirla para demostrar el cambio.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.
