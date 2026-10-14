@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 5 (Conteo regresivo).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de iniciar el conteo en 5.
+- Qué significa en Java que esta función recursiva no devuelva un valor (void) y cómo afecta esto a la forma en que se estructuran los retornos.
+- Cuál es el caso base implementado y por qué detiene la recursión.
+- Por qué es crítico acercarse al caso base restando (n-1) y qué sucedería en la memoria (StackOverflowError) si el código se hubiera escrito usando n+1 por accidente.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/05_explicacion.md.

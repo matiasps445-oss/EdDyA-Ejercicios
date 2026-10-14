@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/05_analisis.md" para resolver el Ejercicio 5 (Conteo regresivo).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. El código debe incluir comentarios claros explicando el caso base, el caso recursivo y cómo funciona la pila de llamadas en esta función de tipo void.
+3. Incluye los casos de prueba solicitados (n=5, n=1, n=0) en el método main para probar la ejecución.
+4. Aplica siempre buenas prácticas de programación, principios de Clean Code y convenciones de nombres.

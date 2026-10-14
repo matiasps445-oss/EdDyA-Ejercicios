@@ -1,0 +1,14 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 5 (Conteo regresivo) sobre recursividad:
+
+"Quiero implementar en Java una función recursiva que imprima un conteo regresivo desde n hasta 0.
+Este problema puede resolverse recursivamente porque hacer un conteo desde n implica imprimir el valor actual de n y luego delegar el resto del conteo al mismo proceso pero con n-1.
+El caso base es cuando n es menor a 0, porque el conteo termina en 0, deteniendo la recursión en ese punto.
+El caso recursivo es imprimir el número actual y hacer la llamada recursiva con n-1, porque así el problema se reduce y se acerca al caso base. Si en lugar de n-1 se usara n+1, la función se alejaría del caso base generando un bucle infinito que terminaría en un error de desbordamiento de memoria.
+La función no necesita devolver un valor (su tipo de retorno será void), lo cual significa que su único propósito es ejecutar una acción (imprimir por consola) y no calcular ni retornar un resultado al método que la llamó.
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probar la ejecución con estos casos:
+- caso 1: n = 5
+- caso 2: n = 1
+- caso 3: n = 0"
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/05_analisis.md.
