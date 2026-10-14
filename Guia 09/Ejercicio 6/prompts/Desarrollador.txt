@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/06_analisis.md" para resolver el Ejercicio 6 de la Guía 9 (Eliminar un nodo por posición).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un método 'void eliminarEnPosicion..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt explicó con total claridad la fórmula matemática para puentear las referencias (anterior.getSiguiente().getSiguiente()) y la necesidad de detenerse en el nodo previo, permitiendo que el método funcione correctamente sin ajustes.
+*/
+2. Implementa el método 'eliminarEnPosicion' contemplando la validación de límites, el caso especial de la posición 0, y el puenteo de referencias para el resto de posiciones.
+3. En el método main, incluye las pruebas de ejecución descritas, imprimiendo la lista después de cada eliminación para confirmar visualmente el resultado.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

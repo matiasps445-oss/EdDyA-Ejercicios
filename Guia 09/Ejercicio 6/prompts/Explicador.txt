@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 6 de la Guía 9 (Eliminar un nodo por posición).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué iteramos el ciclo `for` o `while` exactamente hasta `posicion - 1` y no hasta `posicion` (qué pasaría si nos detenemos exactamente en el nodo que queremos borrar).
+- Cómo se traduce visualmente en la memoria la instrucción combinada `anterior.setSiguiente(anterior.getSiguiente().getSiguiente())`.
+- La importancia de mantener la variable `size` sincronizada al restar 1 cada vez que se elimina un nodo exitosamente, y cómo esto protege a los demás métodos de la clase (como las validaciones de límites).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/06_explicacion.md.
