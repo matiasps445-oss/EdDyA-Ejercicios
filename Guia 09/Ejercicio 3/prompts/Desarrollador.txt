@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/03_analisis.md" para resolver el Ejercicio 3 de la Guía 9 (Obtener un elemento por posición).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un método 'int obtener..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt fue muy explícito al aclarar que la lista enlazada no posee acceso directo por índice y debe recorrerse nodo por nodo, detallando además las validaciones de límites, lo que resultó en un código correcto al primer intento.
+*/
+2. Implementa el método 'obtener' asegurando que se realicen las validaciones de límites (posicion < 0 y posicion >= size) antes de iniciar el ciclo de recorrido secuencial.
+3. En el método main, incluye la prueba de ejecución solicitada: agrega datos, obtén un elemento válido e imprime su valor, y luego demuestra cómo el sistema maneja la solicitud de una posición inválida capturando la excepción o mostrando el error.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

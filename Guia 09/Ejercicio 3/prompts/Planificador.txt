@@ -1,0 +1,8 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 3 de la Guía 9 (Obtener un elemento por posición):
+
+"Quiero implementar en Java un método 'int obtener(int posicion)' para nuestra lista enlazada simple. Este método debe devolver el dato almacenado en la posición indicada por el usuario. 
+Es crucial entender el razonamiento detrás de esto: aunque estemos pidiendo una 'posición' numérica (como si fuera un índice), la lista enlazada no tiene acceso directo a sus elementos en memoria como ocurre con un arreglo tradicional (donde haríamos arreglo[posicion]). Por lo tanto, el algoritmo debe obligatoriamente recorrer la estructura nodo por nodo desde el 'head' llevando una variable contadora hasta alcanzar la posición deseada.
+Antes de iniciar el recorrido, el método debe validar de forma estricta si la posición solicitada es inválida (es decir, si posicion < 0 o si posicion >= size). En esos casos, debe arrojar una excepción (por ejemplo, IndexOutOfBoundsException) para proteger la integridad del programa y evitar un NullPointerException.
+Para verificar el funcionamiento, se debe crear una lista, agregar 3 elementos y tratar de obtener el elemento en la posición 1 (debería ser el del medio), y luego forzar un error pidiendo una posición fuera de los límites."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/03_analisis.md.
