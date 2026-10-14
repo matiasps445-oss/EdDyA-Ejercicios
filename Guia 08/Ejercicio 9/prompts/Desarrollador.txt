@@ -1,0 +1,9 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/09_analisis.md" para resolver el Ejercicio 9 (Problema de desperdicio de espacio en cola simple).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para el cierre del práctico:
+1. Al comenzar el archivo Java, debes incluir textualmente como comentario el prompt inicial utilizado en el análisis del problema (el texto que comienza con "Quiero implementar en Java...").
+2. Implementa la clase de la Cola lineal con un método especial (por ejemplo, mostrarArreglo()) que imprima el contenido físico del arreglo (incluyendo posiciones vacías) para evidenciar el desperdicio.
+3. En el método main, incluye la secuencia exacta de pruebas: llena la cola, retira elementos del frente e intenta agregar uno nuevo para forzar y mostrar el error de "cola llena" a pesar de tener espacio.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.

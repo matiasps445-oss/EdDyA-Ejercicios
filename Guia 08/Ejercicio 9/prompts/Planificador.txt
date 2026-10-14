@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 9 (Problema de desperdicio de espacio en cola simple) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 9.png":
+
+"Quiero implementar en Java un programa con una cola simple basada en un arreglo (por ejemplo, de tamaño 5) con el único fin de demostrar visualmente el problema del desperdicio de posiciones (espacio muerto).
+El programa debe realizar una secuencia específica de operaciones: primero, hacer 'enqueue' de varios elementos hasta llenar casi toda o toda la cola. Segundo, hacer 'dequeue' de un par de elementos, lo cual lógicamente liberará espacio al inicio del arreglo (porque el índice 'front' avanza). Tercero, intentar hacer un nuevo 'enqueue'.
+El problema ocurre porque, en una cola simple lineal, el índice 'rear' ya llegó al final del arreglo y reportará que la cola está llena, impidiendo agregar nuevos elementos a pesar de que físicamente hay espacios vacíos al inicio.
+El programa debe mostrar por pantalla el estado interno del arreglo (imprimiendo sus posiciones, espacios nulos/vacíos y valores) después de cada operación. 
+Quiero pedir explícitamente que en la consola se vea claramente cómo quedan esos espacios libres al inicio que no pueden reutilizarse."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/09_analisis.md.

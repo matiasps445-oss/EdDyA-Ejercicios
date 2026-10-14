@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 9 (Problema de desperdicio de espacio en cola simple).
+
+Tu objetivo principal es ayudarme a aprender y comprender la limitación arquitectónica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué ocurre matemáticamente el "desperdicio de espacio" en una cola lineal (explica el comportamiento unidireccional de los punteros 'front' y 'rear').
+- Analiza la salida de la consola generada por el programa: ¿qué posiciones quedaron libres físicamente y por qué el algoritmo se niega a usarlas?
+- Introduce conceptualmente cuál es la solución definitiva a este problema estructural (sin programarla, solo mencionando que será el objetivo de la "Cola Circular").
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial pidió explícitamente demostrar los espacios libres al inicio, lo cual permitió que el Agente generara directamente un código de demostración visual sin necesidad de hacer ajustes posteriores en el prompt.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/09_explicacion.md.
