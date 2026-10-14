@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 1 (Pila enlazada de enteros).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La diferencia abismal de rendimiento (O(1) vs O(n)): Por qué si decidiéramos usar el "final" de la lista enlazada simple como el tope de la pila, la eficiencia del programa colapsaría al hacer push y pop.
+- Cómo el uso de referencias (nodos) elimina por completo el problema de "Desbordamiento de Pila" (Stack Overflow por capacidad) que teníamos en la guía de Pilas con arreglos estáticos.
+- Cómo se resolvió lógicamente el método de búsqueda, y por qué este método en particular no puede ser O(1).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/01_explicacion.md.

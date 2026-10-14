@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 1 (Pila enlazada de enteros) de la Guía 10:
+
+"Quiero implementar en Java una estructura de Pila (Stack) de números enteros utilizando internamente una lista enlazada simple.
+Corresponde usar una pila porque necesito un comportamiento estricto LIFO (Last In, First Out). Internamente, la estructura funcionará utilizando una clase Nodo y una referencia 'head' (cabeza). 
+Es fundamental comprender que 'head' representará siempre el tope (top) de la pila. El motivo estructural de esta decisión es la eficiencia algorítmica: insertar un nodo al inicio de una lista enlazada simple (apilar/push) y eliminar el nodo del inicio (desapilar/pop) son operaciones directas que no requieren recorrer la estructura. Por lo tanto, esto garantiza que push y pop se resuelvan con una complejidad de O(1) (tiempo constante).
+Las operaciones que debe implementar son: apilar, desapilar, consultar el tope, verificar si está vacía (head == null), buscar si contiene un valor (lo cual requerirá un recorrido secuencial de O(n)) e imprimir su contenido.
+Como casos especiales a contemplar, si la pila está vacía y se intenta desapilar o consultar el tope, el sistema debe arrojar una excepción (EmptyStackException) para proteger la ejecución.
+Quiero que la prueba ejecute un apilamiento de 3 números, muestre el tope, busque un valor existente y desapile un elemento."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/01_analisis.md.

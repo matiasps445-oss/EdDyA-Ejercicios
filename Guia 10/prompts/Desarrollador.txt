@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/01_analisis.md" para resolver el Ejercicio 1 (Pila enlazada de enteros).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java una estructura de Pila..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt justificó con total claridad por qué 'head' debe ser el tope para lograr una complejidad de O(1) en las operaciones principales, lo que permitió que el código generado estuviera perfectamente optimizado desde el principio.
+*/
+2. Implementa las clases necesarias (Nodo y PilaEnlazada) con todos los métodos solicitados y el manejo de excepciones para el caso de pila vacía.
+3. En el método main, incluye las pruebas de ejecución descritas, imprimiendo el estado de la pila por consola tras las operaciones.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.
