@@ -1,0 +1,17 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 10 (Buscar un elemento en un arreglo) sobre recursividad, basado en la imagen adjunta "Ejercicio 10.png":
+
+"Quiero implementar en Java una función recursiva que busque un número dentro de un arreglo, sin usar ciclos.
+Este problema puede resolverse recursivamente porque buscar en todo el arreglo equivale a revisar la posición actual y, si no es el número buscado, delegar la búsqueda al resto del arreglo.
+La búsqueda empieza desde la posición inicial (índice 0), pasándola como parámetro a la función.
+Para avanzar en el arreglo sin usar for ni while, se hace una llamada recursiva incrementando el índice actual en 1 (indice + 1) en cada iteración.
+Hay dos casos base:
+1. Cuando encuentra el valor buscado en la posición actual, devuelve true (o la posición), deteniendo la recursión porque ya cumplió su objetivo.
+2. Cuando el índice llega al final del arreglo (indice == arreglo.length), devuelve false (o -1), deteniendo la recursión porque ya no hay más elementos que revisar.
+La función debe devolver un valor que indique si el elemento fue encontrado.
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probarlo con estos casos:
+- caso 1: arreglo = [1, 2, 3, 4, 5], buscar = 3 (debería encontrarlo)
+- caso 2: arreglo = [1, 2, 3, 4, 5], buscar = 6 (no debería encontrarlo)
+- caso 3: arreglo = [], buscar = 1 (arreglo vacío)"
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/10_analisis.md.
