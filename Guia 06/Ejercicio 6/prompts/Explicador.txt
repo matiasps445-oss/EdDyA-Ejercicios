@@ -1,0 +1,12 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 6 (Contar dígitos).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de contarDigitos(1048).
+- Cuál es el caso base implementado y por qué un número menor que 10 tiene un solo dígito, deteniendo la recursión.
+- Cuál es el caso recursivo y cómo se logra reducir el número progresivamente aprovechando la división entera (/) en Java.
+- Qué devuelve exactamente cada llamada a la función para ir acumulando el total de dígitos.
+- Errores comunes al implementar esto (por ejemplo, cómo lidiar con números negativos si no se validan, o confundir la división entera / con el módulo %).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/06_explicacion.md.
