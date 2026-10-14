@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 4 (Ordenamiento de nombres con Selection Sort).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona el algoritmo Selection Sort aplicado específicamente a este arreglo de nombres.
+- Cómo cambia la comparación cuando se ordenan textos en lugar de números primitivos, explicando en detalle el funcionamiento matemático y lógico del método compareTo().
+- Por qué compareTo() devuelve números negativos, positivos o cero, y cómo aprovecha esto el algoritmo para encontrar el "menor" nombre.
+- Errores comunes al comparar Strings en Java (por ejemplo, intentar usar "==" o ignorar problemas de mayúsculas/minúsculas si no se usa compareToIgnoreCase()).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/04_explicacion.md.
