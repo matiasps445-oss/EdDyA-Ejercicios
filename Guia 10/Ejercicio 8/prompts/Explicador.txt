@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 8 (Invertir una palabra con pila).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- La naturaleza algorítmica de LIFO: Por qué cualquier secuencia de datos (ya sean letras, números o acciones) que se inserta y se retira de una Pila terminará inevitablemente en orden inverso.
+- La eficiencia temporal del algoritmo: Explica por qué este proceso tiene una complejidad de O(n), donde 'n' es la longitud de la palabra.
+- Por qué se sugiere el uso de `StringBuilder` en lugar de concatenar Strings con el operador `+` durante la fase de desapilado (pop) en Java.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/08_explicacion.md.

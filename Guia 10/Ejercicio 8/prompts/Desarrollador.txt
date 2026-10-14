@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/08_analisis.md" para resolver el Ejercicio 8 (Invertir una palabra con pila).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un programa que reciba una palabra..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt explicó con claridad por qué la política LIFO es el mecanismo perfecto para invertir secuencias, indicando las dos fases (apilar todo y luego desapilar todo), lo que resultó en un algoritmo eficiente a la primera.
+*/
+2. Implementa el método de inversión utilizando la clase Pila enlazada genérica instanciada para caracteres (Character).
+3. En el método main, incluye la prueba de ejecución exacta solicitada con la palabra "algoritmo", mostrando en consola el antes y el después de la transformación.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres (puedes usar StringBuilder para concatenar el resultado de forma eficiente).

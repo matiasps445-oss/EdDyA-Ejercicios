@@ -1,0 +1,8 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 8 (Invertir una palabra con pila) de la Guía 10:
+
+"Quiero implementar en Java un programa que reciba una palabra (String) y devuelva la palabra invertida utilizando nuestra estructura de Pila enlazada.
+El algoritmo debe consistir en dos fases. Primero, iterar sobre la palabra original carácter por carácter de izquierda a derecha y apilar (push) cada letra en la pila. Segundo, mientras la pila no esté vacía, desapilar (pop) las letras y concatenarlas para formar la nueva palabra.
+La estructura adecuada para esto es una Pila debido a su política LIFO (Last In, First Out). Esta política permite invertir el orden de los caracteres de forma natural: la última letra de la palabra original que ingresa al tope de la pila será obligatoriamente la primera en salir cuando comencemos a desapilar, invirtiendo así la secuencia sin necesidad de usar índices ni cálculos matemáticos complejos.
+Para probarlo, quiero enviar la palabra 'algoritmo' al método. El programa debe imprimir la palabra original y, a continuación, mostrar el resultado invertido, que debería ser 'omtirogla'."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/08_analisis.md.
