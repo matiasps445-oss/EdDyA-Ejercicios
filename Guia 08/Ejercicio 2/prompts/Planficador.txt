@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 2 (Simulador de torre de platos) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 2.png":
+
+"Quiero implementar en Java un programa que simule una torre de platos utilizando una estructura de datos basada en arreglos. Cada plato estará representado por su nombre (String). 
+Este problema se resuelve obligatoriamente con una Pila (Stack) y no con una Cola (Queue) porque, al apilar objetos físicos, el último plato que se coloca en la cima de la torre es el único accesible y, por lo tanto, debe ser el primero en retirarse. Esto define un comportamiento LIFO (Last In, First Out). Si usáramos una Cola (FIFO), estaríamos intentando sacar el primer plato que pusimos en la base, lo cual derrumbaría la torre.
+Las operaciones necesarias que debe tener la estructura son: agregar un plato (equivalente a push), retirar el plato superior (equivalente a pop) y consultar cuál es el plato que está arriba (equivalente a peek). 
+Para manejar el arreglo interno, se usará un índice que apunte al plato superior. Se deben contemplar los casos límite: no poder retirar ni consultar si la torre está vacía, y no poder agregar si el arreglo interno llegó a su capacidad máxima.
+Para verificar el comportamiento esperado, quiero ejecutar una prueba agregando tres platos ("Plato 1", "Plato 2", "Plato 3"), consultar cuál es el superior, retirar uno y volver a consultar."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/02_analisis.md.

@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 2 (Simulador de torre de platos).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Por qué la abstracción de una "torre de platos" ilustra a la perfección el principio LIFO (Last In, First Out) y por qué utilizar FIFO (Cola) en la vida real sería un desastre en este escenario.
+- Cómo se refleja este comportamiento en el manejo de los índices del arreglo interno cada vez que se agrega o se retira un plato.
+- Cómo previno el código posibles errores al validar si la torre está llena (evitando ArrayIndexOutOfBoundsException) o vacía al intentar retirar un plato.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo que indique que el prompt inicial entregado al Agente Planificador justificó con total claridad el uso de una Pila en lugar de una Cola, por lo que no fue necesario realizar ajustes posteriores para obtener la implementación lógica correcta.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/02_explicacion.md.
