@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 3 (Ordenamiento por Inserción).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de este algoritmo a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Cómo funciona internamente el algoritmo Insertion Sort paso a paso con el arreglo proporcionado.
+- Por qué este algoritmo realiza muy pocos desplazamientos cuando el arreglo está casi ordenado (explica cómo la condición del bucle interno while actúa como una optimización natural).
+- Cuál es la diferencia conceptual entre "intercambiar" dos elementos (como en Bubble Sort) y "desplazar" elementos (como hace Insertion Sort).
+- Errores comunes al implementar este algoritmo (por ejemplo, excepciones IndexOutOfBoundsException al no validar el límite de j >= 0).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/03_explicacion.md.

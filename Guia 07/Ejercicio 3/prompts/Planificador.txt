@@ -1,0 +1,10 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 3 (Ordenamiento por Inserción con arreglo casi ordenado) basado en la imagen adjunta "Ejercicio 3.png":
+
+"Quiero implementar en Java un programa que ordene un arreglo casi ordenado utilizando el algoritmo Insertion Sort (Ordenamiento por Inserción).
+El razonamiento de este algoritmo se basa en construir una porción ordenada del arreglo paso a paso, tomando el siguiente elemento desordenado e insertándolo en la posición correcta dentro de la porción ya ordenada mediante desplazamientos. Insertion Sort funciona excepcionalmente bien cuando los datos están casi ordenados porque la condición de búsqueda se detiene rápidamente, lo que significa que requiere muy pocos desplazamientos y comparaciones en comparación con otros algoritmos.
+El programa recibe un arreglo casi ordenado, específicamente: {1, 2, 3, 5, 4, 6, 7}.
+El programa debe mostrar por pantalla el arreglo ordenado resultante y la cantidad exacta de desplazamientos realizados.
+El código debe incluir comentarios que expliquen la variable que cuenta los desplazamientos y la condición del bucle while que permite que se detenga anticipadamente.
+Para verificar que el resultado sea correcto, se debe comprobar que el arreglo quede completamente ordenado y que el número de desplazamientos sea mínimo (solo los necesarios para acomodar el 5 y el 4)."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/03_analisis.md.
