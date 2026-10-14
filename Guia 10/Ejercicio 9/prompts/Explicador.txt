@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 9 (Cola de impresión).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- El concepto de "Spooling" (Simultaneous Peripheral Operations On-Line): Cómo los sistemas operativos utilizan colas (FIFO) en la vida real para actuar como intermediarios entre el procesador (muy rápido) y la impresora (muy lenta) sin bloquear la computadora.
+- Cómo interactúa la cola genérica con objetos personalizados: Por qué a la lógica de la cola (los punteros `head` y `tail`) le es indiferente si el objeto `TrabajoImpresion` tiene 10 o 1000 páginas.
+- El costo temporal: Confirma y explica brevemente por qué agregar un trabajo a la cola de impresión sigue siendo O(1), a pesar de que el objeto contenga múltiples atributos.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/09_explicacion.md.

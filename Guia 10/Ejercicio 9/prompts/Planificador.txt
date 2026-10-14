@@ -1,0 +1,9 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 9 (Cola de impresión) de la Guía 10:
+
+"Quiero implementar en Java un sistema que simule una cola de impresión. 
+Primero, necesito crear una clase 'TrabajoImpresion' que contenga tres atributos: nombre del archivo, cantidad de páginas y usuario que lo envió.
+El sistema debe permitir las siguientes operaciones utilizando nuestra estructura de Cola enlazada: agregar trabajos a la cola (encolar/enqueue), imprimir el próximo trabajo (desencolar/dequeue), consultar el próximo archivo a imprimir (frente/front) y mostrar todos los trabajos pendientes.
+La estructura de datos obligatoria para este problema es una Cola. Esto se debe a que una impresora física debe procesar los documentos usando estrictamente la política FIFO (First In, First Out). En un entorno de oficina o red donde múltiples usuarios envían documentos, es imperativo respetar el orden cronológico de llegada para garantizar la justicia y evitar que un trabajo enviado después interrumpa o postergue a uno que ya estaba esperando. El primer documento que ingresa a la cola debe ser el primero en salir impreso.
+Para probarlo, quiero instanciar la cola, agregar 3 trabajos de impresión de distintos usuarios, consultar cuál es el próximo archivo, simular la impresión del primer trabajo (retirándolo de la cola) y finalmente mostrar todos los trabajos pendientes que quedan."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/09_analisis.md.

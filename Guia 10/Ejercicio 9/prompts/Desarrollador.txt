@@ -1,0 +1,16 @@
+Actúa como el Agente Desarrollador. Lee el plan técnico estructurado que se encuentra guardado en el archivo "pipeline/09_analisis.md" para resolver el Ejercicio 9 (Cola de impresión).
+
+Tu único objetivo es implementar la solución escribiendo el código en Java basándote estrictamente en las instrucciones de ese documento. 
+
+Por favor, genera el código asegurándote de cumplir con estas reglas obligatorias para la entrega de este práctico:
+1. Al comienzo del archivo Java, DEBES incluir exactamente este bloque de comentarios con el prompt inicial y los ajustes:
+/*
+Prompt inicial utilizado:
+[Inserta aquí el texto del prompt inicial que comienza con "Quiero implementar en Java un sistema que simule una cola..."]
+
+Ajustes realizados luego de la primera respuesta de OpenCode:
+Ninguno. El prompt justificó con precisión por qué una impresora real requiere una estructura FIFO para administrar los recursos compartidos de forma justa, lo que resultó en un sistema de impresión simulado perfectamente funcional.
+*/
+2. Implementa la clase TrabajoImpresion y utiliza la clase ColaEnlazada genérica para administrar estos objetos.
+3. En el método main, incluye las pruebas de ejecución exactas solicitadas (agregar 3 trabajos, consultar el próximo, imprimir uno y mostrar el resto), con mensajes claros por consola.
+4. Aplica siempre buenas prácticas de programación y convenciones de nombres.
