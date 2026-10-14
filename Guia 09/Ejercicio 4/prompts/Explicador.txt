@@ -1,0 +1,10 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 4 de la Guía 9 (Insertar un nodo en una posición específica).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- El peligro de la "pérdida de referencias": explica con un ejemplo visual o paso a paso qué ocurre exactamente en la memoria de Java si ejecutamos `anterior.setSiguiente(nuevo)` antes de configurar el enlace del nuevo nodo.
+- Cómo el código maneja la diferencia lógica entre insertar en la posición 0 (que requiere modificar directamente la variable `head`) versus insertar en cualquier otra posición (que requiere iterar hasta el nodo anterior).
+- Por qué la condición de límite superior válida para este método es `posicion <= size` y no `posicion < size` (como ocurría en el método de obtener un elemento).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/04_explicacion.md.
