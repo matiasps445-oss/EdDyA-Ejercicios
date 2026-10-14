@@ -1,0 +1,11 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 5 (Implementar una pila genérica).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de esta estructura de datos, evitando que simplemente copie y pegue el código. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué son los tipos genéricos (<T>) en Java y cómo resuelven el problema de duplicación de código frente a las estructuras fuertemente tipadas convencionales (como la PilaEnteros).
+- Cómo se resolvió técnicamente la creación del arreglo interno en Java, ya que el lenguaje no permite hacer directamente 'new T[capacidad]' por el borrado de tipos (Type Erasure) en tiempo de compilación.
+- Cómo el compilador garantiza que no mezclemos un String accidentalmente dentro de la Pila<Integer> instanciada en la prueba.
+- Breve sección de reflexión (como exige el cierre del práctico): Redacta un pequeño párrafo indicando que el prompt inicial justificó perfectamente la necesidad y los beneficios de usar genéricos, por lo que no fue necesario realizar ajustes al prompt para obtener un código versátil y seguro.
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/05_explicacion.md.

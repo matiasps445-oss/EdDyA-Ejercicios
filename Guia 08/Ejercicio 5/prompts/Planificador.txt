@@ -1,0 +1,8 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 5 (Implementar una pila genérica) de la guía de Pilas y Colas, basado en la imagen "Ejercicio 5.png":
+
+"Quiero implementar en Java una clase llamada Pila genérica (Pila<T>) utilizando una estructura de arreglo interno.
+El problema fundamental que resuelve el uso de genéricos es la reutilización de código y la seguridad de tipos (type safety). La gran diferencia con una pila hecha solamente con 'int' (como la del Ejercicio 1), es que la pila de enteros nos obligaría a programar una clase completamente nueva (PilaString, PilaFloat, PilaPersona) por cada tipo de dato distinto que queramos almacenar. Al usar genéricos (<T>), escribimos la lógica una sola vez y Java nos permite instanciarla para guardar de forma segura Integer, String u objetos simples, detectando errores de tipos en tiempo de compilación.
+La clase debe permitir las operaciones clásicas (push, pop, peek, isEmpty, isFull y size) usando una variable 'top'. Los casos límite (llena y vacía) deben controlarse arrojando excepciones.
+Para verificar que el resultado sea correcto, quiero que la prueba de ejecución en el main instancie dos pilas diferentes: una Pila<Integer> donde se agreguen números, y una Pila<String> donde se agreguen textos. Se debe hacer un pop en ambas y mostrar el resultado por consola para demostrar que la misma clase sirve para múltiples tipos de datos."
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/05_analisis.md.
