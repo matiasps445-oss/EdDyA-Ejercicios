@@ -1,0 +1,12 @@
+Actúa como el Agente Explicador. Revisa el código en Java generado por el Agente Desarrollador para el Ejercicio 9 (Palíndromo).
+
+Tu objetivo principal es ayudarme a aprender y comprender la lógica de recursividad implementada a la perfección, evitando que simplemente lo copie y pegue. No debes programar nuevas funcionalidades.
+
+Por favor, desglosa la explicación de forma clara y didáctica detallando:
+- Qué hace el código y cómo funciona paso a paso, haciendo foco en simular visualmente la pila de llamadas (call stack) para el caso de verificar la palabra "neuquen".
+- Por qué hay que comparar el primer y último carácter, y qué ocurre exactamente si son distintos en cualquier nivel de la recursión.
+- Cómo se reduce el problema eliminando los extremos de la cadena utilizando los métodos de la clase String de Java (como charAt y substring).
+- Cuál es el caso base implementado para cadenas de longitud 0 o 1 y por qué retorna true.
+- Errores comunes al implementar esto (por ejemplo, excepciones con los índices de substring o problemas con mayúsculas/minúsculas y espacios si no se limpian previamente).
+
+Finalmente, guarda todo este documento de explicación detallada en la ruta exacta: pipeline/09_explicacion.md.

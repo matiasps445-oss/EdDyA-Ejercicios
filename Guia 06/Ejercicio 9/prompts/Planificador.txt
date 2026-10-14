@@ -1,0 +1,15 @@
+Actúa como el Agente Planificador. Necesito que analices el siguiente planteo obligatorio para resolver el Ejercicio 9 (Palíndromo) sobre recursividad:
+
+"Quiero implementar en Java una función recursiva que determine si una palabra es palíndromo.
+Este problema puede resolverse recursivamente porque para saber si una palabra se lee igual de izquierda a derecha que de derecha a izquierda, hay que comparar el primer y último carácter. 
+Si son distintos, la función debe devolver false inmediatamente porque ya no es un palíndromo, rompiendo la recursión.
+Si son iguales, el problema se reduce eliminando esos extremos (el primer y último carácter) y volviendo a llamar a la función con la palabra resultante (la subcadena del medio), acercándose al caso base.
+El caso base es cuando la palabra se reduce a tener 0 o 1 carácter, porque una cadena vacía o de una sola letra es palíndromo por definición, devolviendo true y deteniendo la recursión.
+La función debe devolver un valor boolean (true o false).
+Quiero que el código tenga comentarios explicando el caso base, el caso recursivo y la pila de llamadas.
+También quiero probarlo con estos casos:
+- caso 1: palabra = "neuquen"
+- caso 2: palabra = "a"
+- caso 3: palabra = "hola" "
+
+Transforma directamente esta información en un plan técnico estructurado sin hacer preguntas adicionales y guarda el documento de análisis en la ruta exacta: pipeline/09_analisis.md.
